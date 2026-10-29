@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "job_id": "job:cccccccccccccccccccccccccccccccc",
+  "run_id": "run:frontend-waiting-demo",
+  "status": "waiting_for_input",
+  "created_at": "2026-10-06T00:00:00Z",
+  "updated_at": "2026-10-06T00:00:00Z",
+  "result": {
+    "schema_version": "2.0",
+    "run_id": "run:frontend-waiting-demo",
+    "status": "waiting_for_input",
+    "user_message": "帮我做一个 15 分钟生活圈规划报告。",
+    "brief": {
+      "schema_version": "2.0",
+      "intent": "planning_analysis",
+      "user_goal": "规划报告",
+      "location": null,
+      "facility_ids": [],
+      "unresolved_mentions": [],
+      "exploratory_terms": [],
+      "exploratory_only": false,
+      "capability_limitations": [],
+      "needs_diagnosis": false,
+      "needs_planning": false,
+      "needs_review": false,
+      "missing_information": [
+        {
+          "field": "location",
+          "message": "请提供城市、社区或附近地址。"
+        },
+        {
+          "field": "facility_ids",
+          "message": "请说明要分析的设施类别。"
+        }
+      ]
+    },
+    "limitations": [
+      "本示例为合成的待补充信息状态。"
+    ],
+    "answer": "请补充具体地点（城市、社区或附近地址）和设施类别，我再开始分析。",
+    "errors": []
+  }
+}

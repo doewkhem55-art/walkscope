@@ -1,0 +1,188 @@
+{
+  "captured_at": "2026-10-15T09:42:38+0800",
+  "branch": "feat/frontend-shell",
+  "sha": "58e12fd3af884546c1cec16a3a75efc56d3caf50",
+  "working_tree_dirty": true,
+  "python": "3.12.14",
+  "pytest_targeted": {
+    "command": "python -m pytest -q -p no:cacheprovider tests/test_report_questions.py tests/test_report_question_api.py tests/test_checkup_api.py tests/test_checkup_service.py",
+    "returncode": 0,
+    "tail": [
+      "57 passed, 2 warnings in 0.58s"
+    ]
+  },
+  "pytest_full": {
+    "command": "python -m pytest -q -p no:cacheprovider",
+    "returncode": 0,
+    "tail": [
+      "274 passed, 3 skipped, 2 warnings in 0.69s"
+    ]
+  },
+  "frontend": {
+    "runner": "corepack",
+    "tests": {
+      "state": "通过",
+      "command": "corepack pnpm test",
+      "returncode": 0,
+      "detail": "ℹ pass 71"
+    },
+    "typecheck": {
+      "state": "通过",
+      "command": "corepack pnpm exec vue-tsc -b",
+      "returncode": 0,
+      "detail": "exit 0"
+    },
+    "build": {
+      "state": "通过",
+      "command": "corepack pnpm build",
+      "returncode": 0,
+      "detail": "✓ built in 180ms"
+    }
+  },
+  "gates": {
+    "Gate 1 合成 CheckupReport 契约": {
+      "R1 完成报告结构与身份": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "R2 不完整证据与未知": {
+        "state": "通过",
+        "detail": "3 个用例通过"
+      },
+      "R3 圈内外区别": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "R4 可达语义": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      }
+    },
+    "Gate 2 当前报告问答服务": {
+      "Q1 未完成任务提问": {
+        "state": "通过",
+        "detail": "3 个用例通过"
+      },
+      "Q2 无模型密钥走事实查询": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "Q3 fake模型成功": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "Q4 无效证据引用被拒": {
+        "state": "通过",
+        "detail": "14 个用例通过"
+      },
+      "Q5 模型超时/异常/错误结构": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "Q6 事实不支持的问题": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "Q7 0与null": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "Q8 请求字段边界（前端超时未验）": {
+        "state": "通过",
+        "detail": "9 个用例通过"
+      }
+    },
+    "Gate 3 具体POI与路线证据边界": {
+      "P1 具体设施名不可得": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "P2 不把两个聚合最小值配成一条路线": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "P3 失败路线不生成距离时间": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "P4 圈外候选不冒充圈内命中": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "P5 跨类别同一POI只测一条中心路线": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "P6 同ID坐标冲突停止报告": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      }
+    },
+    "Gate 4 模型失败不重跑地图": {
+      "G4.1-G4.3 失败后原报告仍可GET且未被替换": {
+        "state": "通过",
+        "detail": "3 个用例通过"
+      },
+      "G4.4 报告对象逐一字段不变": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "G4.6 无模型时走显式report_facts": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "G4.7 409/404/403语义分别可辨": {
+        "state": "通过",
+        "detail": "3 个用例通过"
+      }
+    },
+    "Gate 5 问答UI接入": {
+      "G5.1 生命周期：仅在完成且report_id匹配时可提问": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "G5.2 请求：只调用当前报告的 questions，不新建体检": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      },
+      "G5.3 状态：loading/成功/失败/事实查询与模型模式可辨": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "G5.4 失败恢复：502/409/429/404 不移除原报告，重试只重发问题": {
+        "state": "通过",
+        "detail": "4 个用例通过"
+      },
+      "G5.5 证据跳转：只对 report/group/facility 生效，未批准的 POI 键不伪装": {
+        "state": "通过",
+        "detail": "2 个用例通过"
+      },
+      "G5.6 可访问性与长度约束": {
+        "state": "通过",
+        "detail": "3 个用例通过"
+      },
+      "G5.7 切换报告后丢弃旧响应": {
+        "state": "通过",
+        "detail": "4 个用例通过"
+      },
+      "G5.8 页面协调：组件经 emit 与宿主解耦": {
+        "state": "通过",
+        "detail": "1 个用例通过"
+      }
+    }
+  },
+  "not_automated": [
+    "Gate 2 Q8 真实慢模型端到端仍未运行；前端已单独给 questions 至少60秒并有离线测试",
+    "Gate 5 宿主接线未落地：ReportConversation.vue 与 reportQuestions.ts 已实现并有离线用例，但 CheckupApp.vue 的接线以补丁待甲方审核（宿主文件归甲方单写）",
+    "Gate 4 G4.5 端到端验证需要宿主接线后再测；组件侧“只调用 questions、不新建体检”已有离线用例",
+    "Gate 6 多轮：待甲方批准共享 Schema 扩展后才有验收对象",
+    "Gate 7 空间报告/地图一致性 S1-S10：由甲方执行，乙方只组织记录",
+    "Gate 8 真实闭环与展示签收：需要地图/模型额度与浏览器验收"
+  ],
+  "offline_env_stripped": [
+    "RUN_BAIDU_SMOKE",
+    "RUN_DEEPSEEK_SMOKE",
+    "BAIDU_MAP_AK",
+    "DEEPSEEK_API_KEY"
+  ]
+}

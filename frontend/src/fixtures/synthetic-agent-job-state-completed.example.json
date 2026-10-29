@@ -1,0 +1,273 @@
+{
+  "schema_version": "2.0",
+  "job_id": "job:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "run_id": "run:frontend-demo",
+  "status": "completed",
+  "created_at": "2026-10-06T00:00:00Z",
+  "updated_at": "2026-10-06T00:00:00Z",
+  "result": {
+    "schema_version": "2.0",
+    "run_id": "run:frontend-demo",
+    "status": "completed",
+    "user_message": "【合成示例问题】请展示附近菜市场的规划报告结构。",
+    "brief": {
+      "schema_version": "2.0",
+      "intent": "planning_analysis",
+      "user_goal": "合成 UI 演示：查看菜市场规划结构。",
+      "location": {
+        "type": "address",
+        "query": "合成示例社区",
+        "city": "示例城市"
+      },
+      "facility_ids": [
+        "market"
+      ],
+      "unresolved_mentions": [],
+      "exploratory_terms": [],
+      "exploratory_only": false,
+      "capability_limitations": [],
+      "needs_diagnosis": true,
+      "needs_planning": true,
+      "needs_review": true,
+      "missing_information": []
+    },
+    "resolved_center": {
+      "lng": 121.5,
+      "lat": 31.2,
+      "crs": "BD09LL"
+    },
+    "poi_results": [],
+    "routing": null,
+    "diagnosis": null,
+    "community_diagnosis": null,
+    "planning_proposal": {
+      "schema_version": "2.0",
+      "catalog_version": "2026.1",
+      "proposal_id": "plan:frontend-demo",
+      "planning_round": 1,
+      "evidence_bundle_id": "run:frontend-demo:planning-evidence",
+      "summary": "【合成演示】基于演示事实展示逐类报告、可执行步骤和证据限制的页面结构。",
+      "issues": [],
+      "recommendations": [
+        {
+          "recommendation_id": "recommend:market:verify",
+          "facility_id": "market",
+          "title": "核验候选市场与路线",
+          "rationale": "本条仅为合成界面示例，展示如何引用事实并说明核验步骤。",
+          "priority": "medium",
+          "actions": [
+            "查看示例候选与示例路线的证据详情。"
+          ],
+          "evidence_refs": [
+            "fact:market:poi:1",
+            "fact:market:route:1"
+          ]
+        }
+      ],
+      "quantitative_claims": [
+        {
+          "facility_id": "market",
+          "metric": "poi_count",
+          "value": 2,
+          "unit": "个合成候选",
+          "evidence_refs": [
+            "fact:market:poi:1"
+          ]
+        }
+      ],
+      "unsupported_dimensions": [
+        {
+          "facility_id": "market",
+          "planning_supported": true,
+          "unsupported_dimensions": [
+            "population_capacity",
+            "operating_status",
+            "service_quality",
+            "demand_supply_balance"
+          ],
+          "explanation": "合成示例没有人口、容量、运营或需求证据；真实报告中这些维度应显示为未评估。"
+        }
+      ],
+      "facility_dispositions": [
+        {
+          "facility_id": "market",
+          "status": "recommendation_supported",
+          "explanation": "此 disposition 只用于演示页面字段；不要当作真实结论。",
+          "evidence_refs": [
+            "fact:market:poi:1",
+            "fact:market:route:1"
+          ]
+        }
+      ],
+      "facility_dossiers": [
+        {
+          "facility_id": "market",
+          "facility_name": "菜市场与农贸市场（合成示例）",
+          "disposition": "recommendation_supported",
+          "action_ids": [
+            "action:market:verify"
+          ],
+          "fact_ids": [
+            "fact:market:poi:1",
+            "fact:market:route:1"
+          ],
+          "sections": {
+            "existing_basis": "【合成示例】演示数据记录了 2 个候选点。",
+            "spatial_diagnosis": "【合成示例】到示例市场 A 的路线为 680 米。",
+            "planning_goal": "演示如何显示基于既有候选的核验目标。",
+            "priority": "中：仅用于展示层级和样式。",
+            "implementation_steps": [
+              "核对候选点名称与实际设施。",
+              "核对真实入口和路线。"
+            ],
+            "verification": [
+              "在联调阶段检查引用事实能正确跳转到证据详情。"
+            ],
+            "limitations": [
+              "全部数值和地点均为合成数据，不支持现实规划判断。"
+            ],
+            "preconditions": []
+          }
+        }
+      ],
+      "actions": [
+        {
+          "action_id": "action:market:verify",
+          "facility_id": "market",
+          "action": "use_existing_facility",
+          "title": "核验既有候选点位",
+          "rationale": "本示例仅演示一条带事实引用的规划动作。",
+          "objective": "验证前端能展示动作与证据之间的关联。",
+          "priority": "medium",
+          "area_or_object": "虚构候选“示例市场 A”",
+          "implementation_steps": [
+            "查看所引 POI 事实。",
+            "查看所引路线事实。"
+          ],
+          "preconditions": [
+            "真实使用前须由后端提供实测证据。"
+          ],
+          "verification": [
+            "确认页面列出引用的两个事实 ID。"
+          ],
+          "fact_ids": [
+            "fact:market:poi:1",
+            "fact:market:route:1"
+          ],
+          "evidence_refs": [
+            "fact:market:poi:1",
+            "fact:market:route:1"
+          ]
+        }
+      ]
+    },
+    "planning_evidence_bundle": {
+      "schema_version": "2.0",
+      "evidence_bundle_id": "run:frontend-demo:planning-evidence",
+      "items": [
+        {
+          "facility_id": "market",
+          "facility_name": "菜市场与农贸市场（合成示例）",
+          "poi_count": 2,
+          "poi_status": "complete",
+          "reachable_count": 2,
+          "covered_ratio": 0.5,
+          "metric_status": "complete",
+          "source": "fixture:synthetic-ui-demo",
+          "evidence_id": "run:frontend-demo:evidence:market",
+          "metric_profile": "synthetic-demo",
+          "analysis_mode": "point_access",
+          "time_limit_s": 900,
+          "service_distance_m": 1000,
+          "basis_type": "project_proxy",
+          "basis": "纯合成 UI 演示值，不是法定标准或地图测量。",
+          "required_data": [
+            "真实 POI",
+            "真实步行路线"
+          ],
+          "route_status": "complete",
+          "coverage_status": "partial",
+          "route_sample_count": 2,
+          "route_sample_planned_count": 2,
+          "limitations": [
+            "合成数据，不是实际覆盖率或真实服务证据。"
+          ],
+          "facts": [
+            {
+              "fact_id": "fact:market:poi:1",
+              "facility_id": "market",
+              "kind": "classified_poi",
+              "status": "complete",
+              "statement": "【合成示例】样例地图检索记录到 2 个市场候选点。",
+              "metric": "poi_count",
+              "value": 2,
+              "unit": "个候选点",
+              "scope": "仅为合成界面数据；不代表任何真实地点的设施供给。",
+              "basis": "合成前端展示夹具",
+              "object_ref": "合成市场候选集合",
+              "source": "fixture:synthetic-ui-demo",
+              "method": "人工构造 JSON 示例",
+              "observed_at": null,
+              "applicability": "只用于前端结构与状态渲染。",
+              "uncertainty": "不是地图实测；不得用于真实判断。",
+              "limitations": [
+                "合成数据，不是现实设施或服务证据。"
+              ]
+            },
+            {
+              "fact_id": "fact:market:route:1",
+              "facility_id": "market",
+              "kind": "walk_route",
+              "status": "complete",
+              "statement": "【合成示例】到示例市场 A 的步行路线距离为 680 米。",
+              "metric": "walk_distance_m",
+              "value": 680,
+              "unit": "米",
+              "scope": "虚构起点到虚构候选点的一条演示路线。",
+              "basis": "合成前端展示夹具",
+              "object_ref": "示例市场 A",
+              "source": "fixture:synthetic-ui-demo",
+              "method": "人工构造 JSON 示例",
+              "observed_at": null,
+              "applicability": "只用于前端结构与状态渲染。",
+              "uncertainty": "不是百度路线实测；不得用于真实判断。",
+              "limitations": [
+                "合成数据，不是现实设施或服务证据。"
+              ]
+            }
+          ],
+          "action_permissions": [
+            {
+              "facility_id": "market",
+              "action": "use_existing_facility",
+              "allowed": true,
+              "substantive": true,
+              "fact_ids": [
+                "fact:market:poi:1",
+                "fact:market:route:1"
+              ],
+              "missing": [],
+              "reason": "仅为合成 UI 演示。"
+            }
+          ]
+        }
+      ]
+    },
+    "review_result": {
+      "schema_version": "2.0",
+      "status": "approved",
+      "reviewed_proposal_id": "plan:frontend-demo",
+      "reviewed_planning_round": 1,
+      "reviewed_evidence_bundle_id": "run:frontend-demo:planning-evidence",
+      "issues": [],
+      "revision_instructions": []
+    },
+    "limitations": [
+      "此完整成功结果为合成前端夹具；其中地点、点位、距离、覆盖率、审查结论均不得作为真实验收证据。"
+    ],
+    "answer": "【合成 UI 演示，不是真实分析】此例演示答案、逐类报告、动作、证据引用、审查状态与限制的布局。真实结果必须以当前服务返回的数据为准。",
+    "created_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-06T00:00:00Z",
+    "errors": []
+  }
+}

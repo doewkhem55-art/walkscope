@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>打开已有报告</title></head>
+<body style="font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;padding:24px;line-height:1.7">
+<h3>正在打开已有体检报告…</h3>
+<p id="info"></p>
+<p>（本页只把已完成的报告交给应用加载，不会发起新体检，不消耗额度）</p>
+<script>
+  // 1) 先把当前（正在跑的）任务编号备份，便于稍后切回
+  const current = localStorage.getItem('15min-life.checkup.pending')
+  if (current) localStorage.setItem('15min-life.checkup.pending.prev', current)
+
+  // 2) 把目标报告写成"进行中"句柄，应用会按自身恢复机制去拉取它
+  const params = new URLSearchParams(location.search)
+  const id = params.get('id')
+  const base = params.get('base') || location.origin.replace(/:\d+$/, ':8765')
+  if (id) {
+    localStorage.setItem('15min-life.checkup.pending', JSON.stringify({
+      id, base, status: 'running', stage: 'coverage', progress: 65,
+    }))
+    document.getElementById('info').textContent =
+      '目标报告：' + id + '　后端：' + base + (current ? '　（已备份原任务，可在 Console 用 localStorage.getItem("15min-life.checkup.pending.prev") 取回）' : '')
+    setTimeout(() => { location.replace('/') }, 600)
+  } else {
+    document.getElementById('info').textContent = '缺少 id 参数'
+  }
+</script>
+</body>
+</html>

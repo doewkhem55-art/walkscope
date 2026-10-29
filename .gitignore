@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+.local/
+.venv/
+venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.log
+*.tsbuildinfo
+.DS_Store
+# Included case data is deliberately kept in this handoff snapshot.
+
+# Exact immutable payload is versioned in offline-samples.zip.
+/data/reports/
+/data/report_drafts/baselines/
+/data/samples/
+/frontend/public/cases/
+/执行资料/

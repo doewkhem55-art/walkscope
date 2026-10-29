@@ -1,0 +1,130 @@
+{
+  "version": "presence-count-v3",
+  "score_label": "设施配置参考分",
+  "route_success_required": false,
+  "count_basis": "本次分析范围内去重且类别匹配的独立设施数量",
+  "profiles": {
+    "A": {
+      "name": "节点型",
+      "bands": [
+        {
+          "min_count": 0,
+          "score": 0
+        },
+        {
+          "min_count": 1,
+          "score": 80
+        },
+        {
+          "min_count": 2,
+          "score": 90
+        },
+        {
+          "min_count": 3,
+          "score": 100
+        }
+      ]
+    },
+    "B": {
+      "name": "社区型",
+      "bands": [
+        {
+          "min_count": 0,
+          "score": 0
+        },
+        {
+          "min_count": 1,
+          "score": 60
+        },
+        {
+          "min_count": 2,
+          "score": 75
+        },
+        {
+          "min_count": 3,
+          "score": 90
+        },
+        {
+          "min_count": 5,
+          "score": 100
+        }
+      ]
+    },
+    "C": {
+      "name": "高频网点",
+      "bands": [
+        {
+          "min_count": 0,
+          "score": 0
+        },
+        {
+          "min_count": 1,
+          "score": 50
+        },
+        {
+          "min_count": 2,
+          "score": 65
+        },
+        {
+          "min_count": 4,
+          "score": 80
+        },
+        {
+          "min_count": 8,
+          "score": 90
+        },
+        {
+          "min_count": 16,
+          "score": 100
+        }
+      ]
+    }
+  },
+  "facilities": {
+    "childcare_0_3": "B",
+    "kindergarten": "B",
+    "primary_school": "B",
+    "secondary_school": "B",
+    "after_school_care": "B",
+    "education_training": "C",
+    "community_health_center": "A",
+    "community_health_station": "B",
+    "clinic": "B",
+    "hospital": "A",
+    "pharmacy": "C",
+    "rehabilitation_service": "B",
+    "mental_health_service": "B",
+    "eldercare_facility": "A",
+    "elderly_day_service": "B",
+    "elderly_meal_service": "B",
+    "home_care_service": "B",
+    "disability_support": "A",
+    "market": "A",
+    "supermarket": "B",
+    "convenience_store": "C",
+    "community_canteen": "B",
+    "restaurant": "C",
+    "postal_express": "C",
+    "bank": "C",
+    "hair_salon": "C",
+    "laundry": "C",
+    "repair_service": "C",
+    "library": "A",
+    "cultural_activity_center": "A",
+    "sports_venue": "B",
+    "sports_court": "B",
+    "outdoor_fitness": "B",
+    "park_green": "B",
+    "playground": "B",
+    "public_toilet": "B",
+    "bus_stop": "C",
+    "metro_station": "A",
+    "public_parking": "C",
+    "ev_charging": "C",
+    "recycling_point": "C",
+    "community_service_center": "A",
+    "neighborhood_committee": "A",
+    "police_station": "A",
+    "fire_station": "A"
+  }
+}

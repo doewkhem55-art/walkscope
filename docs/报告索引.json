@@ -1,0 +1,471 @@
+[
+  {
+    "id": "06bc784efca6462e9b4f38fc59b2c955",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50038372788691,
+      "lat": 31.291801239776436,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-22T14:12:02.952512+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 3,
+    "score": null,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/06bc784efca6462e9b4f38fc59b2c955_report.json"
+  },
+  {
+    "id": "10f3613414114609b3ca86de2e378217",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-21T16:30:35.101608+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 1074,
+    "score": null,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/10f3613414114609b3ca86de2e378217_report.json"
+  },
+  {
+    "id": "3de7777d550f4562afc38d96140f0118",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-21T14:16:19.407123+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 2393,
+    "score": 52.5,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/3de7777d550f4562afc38d96140f0118_report.json"
+  },
+  {
+    "id": "44dada12d1e14e9c8a52cf0e41a30d10",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.5347544722813,
+      "lat": 31.278588281086048,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-22T16:58:28.323953+00:00",
+    "groups": [
+      "education_children"
+    ],
+    "category_count": 6,
+    "poi_membership_count": 232,
+    "score": 40.0,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/44dada12d1e14e9c8a52cf0e41a30d10_report.json"
+  },
+  {
+    "id": "6374446c22fc4bb0bfbeb3306dd4a911",
+    "status": "cancelled",
+    "location": "互联宝地",
+    "center": {
+      "lng": 121.5347544722813,
+      "lat": 31.278588281086048,
+      "crs": "BD09LL"
+    },
+    "created_at": null,
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 97,
+    "score": null,
+    "coverage_method": null,
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/6374446c22fc4bb0bfbeb3306dd4a911_report.json"
+  },
+  {
+    "id": "6f52bff69cd849e8a9eb68ecc0fd8fcd",
+    "status": "completed",
+    "location": "同济大学(四平路校区)",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-23T07:45:46.086667+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 747,
+    "score": null,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/6f52bff69cd849e8a9eb68ecc0fd8fcd_report.json"
+  },
+  {
+    "id": "9f4df3be7e3c4828a95b75f8c7b8a47e",
+    "status": "completed",
+    "location": "同济大学(四平路校区)",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-22T13:43:23.016193+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 41,
+    "score": null,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/9f4df3be7e3c4828a95b75f8c7b8a47e_report.json"
+  },
+  {
+    "id": "a296e99d41794fc29606b262f7764979",
+    "status": "completed",
+    "location": "同济大学(嘉定校区)",
+    "center": {
+      "lng": 121.22075735076268,
+      "lat": 31.292246690159498,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-22T13:40:26.035438+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 15,
+    "score": null,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/a296e99d41794fc29606b262f7764979_report.json"
+  },
+  {
+    "id": "e5231b852ae643f180cb4143ec8da97f",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-21T14:00:23.242932+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 2393,
+    "score": 52.5,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/e5231b852ae643f180cb4143ec8da97f_report.json"
+  },
+  {
+    "id": "ef5f4c75a0f6449786241fd099e743af",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-20T16:11:52.363271+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 1616,
+    "score": null,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/ef5f4c75a0f6449786241fd099e743af_report.json"
+  },
+  {
+    "id": "replay-primary-school-20261018",
+    "status": "completed",
+    "location": "同济大学 · 小学（单类历史回放）",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-18T01:08:41.228551+00:00",
+    "groups": [
+      "education_children"
+    ],
+    "category_count": 1,
+    "poi_membership_count": 16,
+    "score": 90.0,
+    "coverage_method": null,
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/replay-primary-school-20261018_report.json"
+  },
+  {
+    "id": "tongji-20m-20261024",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-24T09:37:21.720992+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 2393,
+    "score": 52.5,
+    "coverage_method": "grid_representative_walking_distance",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-20m-20261024_report.json"
+  },
+  {
+    "id": "tongji-education-health-actual-poi-20261025",
+    "status": "completed",
+    "location": "同济大学（四平路校区）· 教育与儿童、健康医疗",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-25T07:25:21.487878+00:00",
+    "groups": [
+      "education_children",
+      "health_medical"
+    ],
+    "category_count": 13,
+    "poi_membership_count": 479,
+    "score": 57.5,
+    "coverage_method": "actual_poi_origins_adaptive_1km_service_area_v1",
+    "isochrone_grid_cell_m": 100.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-education-health-actual-poi-20261025_report.json"
+  },
+  {
+    "id": "tongji-education-health-actual-poi-v2-20261025",
+    "status": "completed",
+    "location": "同济大学（四平路校区）· 教育与儿童、健康医疗",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-25T07:51:56.164262+00:00",
+    "groups": [
+      "education_children",
+      "health_medical"
+    ],
+    "category_count": 13,
+    "poi_membership_count": 479,
+    "score": 57.5,
+    "coverage_method": "actual_poi_origins_adaptive_1km_service_area_v1",
+    "isochrone_grid_cell_m": 100.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-education-health-actual-poi-v2-20261025_report.json"
+  },
+  {
+    "id": "tongji-education-health-shared500-20261024",
+    "status": "completed",
+    "location": "同济大学（四平路校区）· 教育与儿童、健康医疗",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-25T05:35:46.715176+00:00",
+    "groups": [
+      "education_children",
+      "health_medical"
+    ],
+    "category_count": 13,
+    "poi_membership_count": 479,
+    "score": 57.5,
+    "coverage_method": "shared_500m_origins_adaptive_1km_service_area_v1",
+    "isochrone_grid_cell_m": 100.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-education-health-shared500-20261024_report.json"
+  },
+  {
+    "id": "tongji-education-health-walk-contour-20261025",
+    "status": "completed",
+    "location": "同济大学（四平路校区）· 教育与儿童、健康医疗",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-25T08:16:26.088943+00:00",
+    "groups": [
+      "education_children",
+      "health_medical"
+    ],
+    "category_count": 13,
+    "poi_membership_count": 479,
+    "score": 57.5,
+    "coverage_method": "actual_poi_origins_measured_contour_1km_service_area_v2",
+    "isochrone_grid_cell_m": 100.0,
+    "current_accepted": true,
+    "path": "project/data/reports/tongji-education-health-walk-contour-20261025_report.json"
+  },
+  {
+    "id": "tongji-education-shared500-20261024",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-24T14:13:10.267507+00:00",
+    "groups": [
+      "education_children"
+    ],
+    "category_count": 6,
+    "poi_membership_count": 297,
+    "score": 65.0,
+    "coverage_method": "shared_500m_origins_adaptive_1km_service_area_v1",
+    "isochrone_grid_cell_m": 100.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-education-shared500-20261024_report.json"
+  },
+  {
+    "id": "tongji-health-shared500-20261024",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-24T15:30:39.992035+00:00",
+    "groups": [
+      "health_medical"
+    ],
+    "category_count": 7,
+    "poi_membership_count": 182,
+    "score": 47.5,
+    "coverage_method": "shared_500m_origins_adaptive_1km_service_area_v1",
+    "isochrone_grid_cell_m": 100.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-health-shared500-20261024_report.json"
+  },
+  {
+    "id": "tongji-poi-service-20261024",
+    "status": "completed",
+    "location": "地图选点",
+    "center": {
+      "lng": 121.50860201413879,
+      "lat": 31.28826762993392,
+      "crs": "BD09LL"
+    },
+    "created_at": "2026-10-24T12:09:11.978237+00:00",
+    "groups": [
+      "education_children",
+      "health_medical",
+      "elderly_disability",
+      "daily_commerce",
+      "culture_sports_green",
+      "transport_municipal",
+      "community_safety"
+    ],
+    "category_count": 45,
+    "poi_membership_count": 2393,
+    "score": 52.5,
+    "coverage_method": "poi_origin_service_area_union_difference_v1",
+    "isochrone_grid_cell_m": 200.0,
+    "current_accepted": false,
+    "path": "project/data/reports/tongji-poi-service-20261024_report.json"
+  }
+]

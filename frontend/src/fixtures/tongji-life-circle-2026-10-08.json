@@ -1,0 +1,3371 @@
+{
+  "schema_version": "competition-demo-1",
+  "sample": {
+    "id": "tongji",
+    "label": "同济大学四平路校区（新中心）",
+    "center": {
+      "lng": 121.508602,
+      "lat": 31.288268,
+      "crs": "BD09LL"
+    },
+    "collected_at": "2026-10-08T00:15:04+08:00",
+    "data_date": "2026-10-08",
+    "mode": "live",
+    "source_file": "docs/test-report/tongji-core-raw-20261008-001504.json",
+    "source_sha256": "150a7f6ece252dcc41666471056c9631617ebfccdc9765e314f37ebaca413bcf"
+  },
+  "diagnosis": {
+    "ok": true,
+    "data": {
+      "center": {
+        "lng": 121.508602,
+        "lat": 31.288268,
+        "crs": "BD09LL"
+      },
+      "location_label": null,
+      "poi_search_radius_m": 1999,
+      "poi": {
+        "center": {
+          "lng": 121.508602,
+          "lat": 31.288268,
+          "crs": "BD09LL"
+        },
+        "pois": [
+          {
+            "poi_id": "baidu:a9fdc86976844f1b1e1d11f3",
+            "name": "四平同济市集(鞍山路310弄小区店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.516002,
+              "lat": 31.285592,
+              "crs": "BD09LL"
+            },
+            "address": "鞍山支路11号（同济大学地铁站1口步行460米）",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d19a60d0d5042c11593ac89c",
+            "name": "美城菜市场(鞍山支路供应点)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.515979,
+              "lat": 31.285477,
+              "crs": "BD09LL"
+            },
+            "address": "鞍山支路9号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:00f1c7fbb7dccd06c056ac5b",
+            "name": "阳普阜新菜市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.513235,
+              "lat": 31.282601,
+              "crs": "BD09LL"
+            },
+            "address": "阜新路151号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:743d271b58697db7c7f0259b",
+            "name": "密云菜市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.503212,
+              "lat": 31.281395,
+              "crs": "BD09LL"
+            },
+            "address": "密云路290号56号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:93df0dc3624c5f32882fb55b",
+            "name": "阳普鞍山菜市场(鞍山四村店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.517832,
+              "lat": 31.282418,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区鞍山路101-2临(近锦西路)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:cde9e2c7acafbcade91e97ad",
+            "name": "阳普国年菜市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.512962,
+              "lat": 31.30008,
+              "crs": "BD09LL"
+            },
+            "address": "政肃路55号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:fa9d85415271a6c5b35c6a40",
+            "name": "虹联菜市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.493874,
+              "lat": 31.287642,
+              "crs": "BD09LL"
+            },
+            "address": "东体育会路661号虹联市场2011号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:f2327f08419004e3a80dd81e",
+            "name": "上海沪陵农贸市场-1号门",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.498753,
+              "lat": 31.298437,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区运光路25弄1-18号(近腾克路)上海沪陵农贸市场",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d2934dba5c9fe485a2a934df",
+            "name": "沪陵农贸市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.498496,
+              "lat": 31.298265,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区曲阳路街道运光路25弄1-18号(近腾克路)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:119afb7d29ec14a45b10937e",
+            "name": "三角地邮电菜市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.503282,
+              "lat": 31.275368,
+              "crs": "BD09LL"
+            },
+            "address": "东沙虹港路10号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:07f3c8b5638e777a6240a95b",
+            "name": "平昌菜市场",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.520172,
+              "lat": 31.299746,
+              "crs": "BD09LL"
+            },
+            "address": "国定路171号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:75d0881a9e8639543a04b15b",
+            "name": "阳普长岭菜市场(凤城三村小区店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.526686,
+              "lat": 31.286491,
+              "crs": "BD09LL"
+            },
+            "address": "长岭路56号(近延吉西路)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:a7381136df568344bfa8220f",
+            "name": "徐记百货(平昌菜市场店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.520264,
+              "lat": 31.299676,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区国定路171号平昌菜场301号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:499553518dd742006fc02cb2",
+            "name": "珺伟生鲜超市(密云小区东区密云路444弄店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.503259,
+              "lat": 31.283554,
+              "crs": "BD09LL"
+            },
+            "address": "密云路400号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d1846c1d07937b6ac42ba1ef",
+            "name": "悠尚鲜食品生鲜超市(辉河路小区店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.504674,
+              "lat": 31.294045,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区曲阳路街道辉河路39号一层",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:67fe464c14e848d06b49f372",
+            "name": "满篮生鲜超市(鞍山六村店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.511944,
+              "lat": 31.28027,
+              "crs": "BD09LL"
+            },
+            "address": "鞍山六村南区西北门北50米(四平路地铁站2号口步行480米)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:fa255be35208b1a5f403b8a5",
+            "name": "盒马鲜生(曲阳路商务中心店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.499674,
+              "lat": 31.292181,
+              "crs": "BD09LL"
+            },
+            "address": "中山北二路1818号百联曲阳购物中心2楼",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:baa14ed6b1b0e07e71455baf",
+            "name": "夏荷生鲜超市(国顺路店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.519832,
+              "lat": 31.296667,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区国顺路189号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:33417cb5d7960b0ea2a93472",
+            "name": "青清然生鲜超市",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.514982,
+              "lat": 31.274282,
+              "crs": "BD09LL"
+            },
+            "address": "辽源西路278号临一4-6",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:0a6c566e13950f39cc06a4a3",
+            "name": "左鲜生生鲜超市(延吉西路店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.528017,
+              "lat": 31.286277,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区延吉西路78号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:c65e92bd5a15a48d283a9fd7",
+            "name": "鲜米生鲜(锦西路店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.518864,
+              "lat": 31.282426,
+              "crs": "BD09LL"
+            },
+            "address": "锦西路67号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:550c54ac218b889a4e554776",
+            "name": "中意农副产品生鲜超市",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.511183,
+              "lat": 31.274218,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区嘉兴路街道新港路20号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:8e62841f3a587fc94302454c",
+            "name": "崇明生鲜馆(国顺路店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.520165,
+              "lat": 31.296586,
+              "crs": "BD09LL"
+            },
+            "address": "国顺路169号(国权路地铁站2号口步行420米)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d5a4d7cadf048e945cd4fe3c",
+            "name": "安心优选生鲜超市",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.504392,
+              "lat": 31.273849,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区天镇路中信和平家园",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:157f1106d82e605a9c09f7d6",
+            "name": "清美生鲜(长岭路店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.525788,
+              "lat": 31.288478,
+              "crs": "BD09LL"
+            },
+            "address": "长岭路74号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:1cfe045362aa97881b94c698",
+            "name": "爱森优选(祥德店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.496032,
+              "lat": 31.276549,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区祥德路323号-1",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:a7b36d4232a5a46997ec84da",
+            "name": "食鲜生(欧五小区店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.493175,
+              "lat": 31.278605,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区欧阳路虹口区教师进修学院",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:575525e6ceb87c72d81318c5",
+            "name": "伊泽绿叶生鲜(凤城三村东小区店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.528484,
+              "lat": 31.286452,
+              "crs": "BD09LL"
+            },
+            "address": "凤城三村东小区延吉西路80弄",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:e6e4ca782b0d4db7c6effbc0",
+            "name": "盒马生鲜奥莱(鞍山店)",
+            "facility_type": "market",
+            "location": {
+              "lng": 121.517626,
+              "lat": 31.282924,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区鞍山路180号一层",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:378838fb4e91dfdbc1f1cfdb",
+            "name": "乐御医上海乐同堂大药房(鞍山路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.511931,
+              "lat": 31.282892,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区四平路1028弄45号乙",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:4d6e1b4c6bd89b4bdf1e5282",
+            "name": "益丰大药房(巴林路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.504524,
+              "lat": 31.293842,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区巴林路12号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:eb3675036d6ed90200ec015d",
+            "name": "复美大药房(吉申店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.50586,
+              "lat": 31.28158,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区大连西路17-2号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:f4460918640dd773b11e365d",
+            "name": "雷允上国药(辉河路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.504924,
+              "lat": 31.29483,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区辉河路56号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:87248d96c2036faa2806ce59",
+            "name": "雷允上国药(赤峰路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.500066,
+              "lat": 31.287991,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区曲阳路街道赤峰路358号2层209室",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d5464cf82c16724efca778a3",
+            "name": "雷允上国药(鹤龄药店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.501016,
+              "lat": 31.28224,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区大连西路86号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:f1f5cac50e234f8137b06ca6",
+            "name": "老百姓大药房(大连路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.510516,
+              "lat": 31.278862,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区大连路1548号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:0eb1e1ba4c1f839ed1f49e7b",
+            "name": "老百姓大药房(锦西路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.515962,
+              "lat": 31.28046,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区锦西路109号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:123f7907e50000ea9ee321dd",
+            "name": "益丰大药房(鞍山路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.51801,
+              "lat": 31.282158,
+              "crs": "BD09LL"
+            },
+            "address": "鞍山路101号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:f507315dfe442ca482a12eb5",
+            "name": "益丰大药房(四平路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.504874,
+              "lat": 31.278076,
+              "crs": "BD09LL"
+            },
+            "address": "四平路773号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:e67cd4c8234e34ba2fb9087a",
+            "name": "老百姓大药房(松花江路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.505111,
+              "lat": 31.298532,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区邯郸路173号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:6a8f93ef08923bc977026911",
+            "name": "好药师大药房(国年路99弄小区店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.514925,
+              "lat": 31.297556,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区国年路99弄-12号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:2ee323bb6db6a382704b87af",
+            "name": "益丰大药房(曲阳路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.497541,
+              "lat": 31.279915,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区曲阳路452-2临",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:beabdbf485b5bd817069d35d",
+            "name": "复美大药房(欧阳店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.492588,
+              "lat": 31.281314,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区欧阳路695号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:78af6a8e36c1bb5031870a97",
+            "name": "海王星辰健康药房(东体育会路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.49448,
+              "lat": 31.28998,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区曲阳路街道东体育会路868号1层",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:631c4157255d957831f71d5f",
+            "name": "雷允上国药(曲阳生活购物中心店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.49766,
+              "lat": 31.285081,
+              "crs": "BD09LL"
+            },
+            "address": "曲阳路580号曲阳生活购物中心F1",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:bc819c6b1cbe59b76fc02cd3",
+            "name": "北京同仁堂(黄兴路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.524909,
+              "lat": 31.299163,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区黄兴路2009号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:8a7b28139c878bf57c29bda8",
+            "name": "益丰大药房(长岭路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.525471,
+              "lat": 31.289086,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区长岭路102~106号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:10d513f4a6aa6ad701294f73",
+            "name": "雷允上(鞍山路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.518538,
+              "lat": 31.281641,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区鞍山路81号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:23b351bed331fdbd3617dc4e",
+            "name": "沪丰大药房(上海信息技术大厦A座店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.525691,
+              "lat": 31.280604,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区控江路1555号A座110室",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:f1cf8ba1b4c6c98e51e5c505",
+            "name": "国大药房(赤峰路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.492035,
+              "lat": 31.288065,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区赤峰路491号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:a0d83f129c01c885d7851f8a",
+            "name": "京东大药房(飞虹路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.518483,
+              "lat": 31.272422,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区江浦路街道宝钢又一村北区",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:6113ef771d66810d8e772753",
+            "name": "雷允上国药(健华药店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.517716,
+              "lat": 31.29748,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区四平路2001号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:a17ef7f4e711dff031f71d18",
+            "name": "第一医药(控江路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.518384,
+              "lat": 31.279412,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区控江路同济绿园",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:9ff45fb95fd970ce990050e6",
+            "name": "天宝社区家庭药房",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.507033,
+              "lat": 31.276514,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区天宝路881号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d6df91c127f80d73f7b9164d",
+            "name": "老百姓大药房(抚顺店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.529299,
+              "lat": 31.289336,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区抚顺路1-1号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:2fa8c5b261876503077ce8b7",
+            "name": "上海华氏雷允上(新港店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.504575,
+              "lat": 31.275787,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区新港路412号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:572594f28841617bf8dc85c3",
+            "name": "益丰大药房(市民店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.496549,
+              "lat": 31.299934,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区大柏树立交桥同济·晶度",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:2c0bd6c545cadbb343ab9a5d",
+            "name": "海王星辰健康药房(祥德路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.492472,
+              "lat": 31.276822,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区祥德路105-2号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:a7a6cbbfc50aef801b11d5e6",
+            "name": "万林大药房",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.494914,
+              "lat": 31.277193,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区祥德路欧四小区",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:083a55fab250ec60246e985d",
+            "name": "复美大药房(祥德店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.496135,
+              "lat": 31.276542,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区祥德路325-1号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:474d490b8b144f791e1d11f4",
+            "name": "益丰大药房(辽源西路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.520122,
+              "lat": 31.274979,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区辽源西路82号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:c09e4358528e7787213bf25a",
+            "name": "瑞虹路",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.507275,
+              "lat": 31.272141,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区嘉兴路街道瑞虹路387号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:0777540bee827317364aaedf",
+            "name": "雷允上(瑞虹路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.507233,
+              "lat": 31.27216,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区瑞虹路391号1层",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:54202310a20a84267f29bd0b",
+            "name": "益丰大药房(欧阳路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.494211,
+              "lat": 31.276398,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区欧阳路375号1层-2",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:e4b7469a3f2d6b98a4c75602",
+            "name": "上海月亮晟大药房有限公司",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.521513,
+              "lat": 31.280159,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区控江路1690号2号楼1507室",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:0dc3d82ddeff4f7575e5b650",
+            "name": "国大药房(本溪路店)",
+            "facility_type": "pharmacy",
+            "location": {
+              "lng": 121.527855,
+              "lat": 31.283371,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区本溪路77-79号凤城路",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d6c5d99135a8bfe930169b26",
+            "name": "曲阳第四小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.502233,
+              "lat": 31.28894,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区密云路471弄1号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:49d959385f386442c61e51dd",
+            "name": "二师附小",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.5061,
+              "lat": 31.282395,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区大连西路16号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:719bd8ec47b3ea5ebea24027",
+            "name": "虹口区曲阳第三小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.50181,
+              "lat": 31.28591,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区赤峰路317弄17号(近密云路)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:75d0881ac735004c3a04b1d2",
+            "name": "同济小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.515792,
+              "lat": 31.290389,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区四平街道彰武路同济新村758号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:df463267f4ed4fe7f50e77e9",
+            "name": "上海市民办四中心实验小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.506413,
+              "lat": 31.294962,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区辉河路40弄40号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:b533ea4aeaa8953f4f6d4679",
+            "name": "打虎山路第一小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.51376,
+              "lat": 31.280278,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区打虎山路138号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:be1ea5efa2ddb7be14948ed2",
+            "name": "复旦大学第二附属学校(邯郸校区)",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.51195,
+              "lat": 31.297947,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区政修路130号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:6ed3083a8d442db62b3a9f26",
+            "name": "上海市民办宏星小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.496445,
+              "lat": 31.287693,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区赤峰路375号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:4afde8e65a9db8971b11d5ac",
+            "name": "虹口区第四中心小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.495869,
+              "lat": 31.289862,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区东体育会路667号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:669775d078c8285afd0eb0d2",
+            "name": "上海市五角场小学(西部)",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.516943,
+              "lat": 31.298647,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区政化路247号(国权路地铁站4号口步行500米)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d4034eb35d55f6f5c036447b",
+            "name": "虹口区幸福四平实验小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.500888,
+              "lat": 31.277138,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区四平路621弄100号(近新港路)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:dbf4d6ee870301576ea3ccb5",
+            "name": "民办打一外国语小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.522499,
+              "lat": 31.282514,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区本溪路150号（近铁岭路）",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:4e8fd5a9f5e508bbd8eced4c",
+            "name": "凤城新村小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.52412,
+              "lat": 31.288995,
+              "crs": "BD09LL"
+            },
+            "address": "凤城六村60号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:d799f93dd7d2053208ccdd62",
+            "name": "许昌路第五小学",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.518666,
+              "lat": 31.278036,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区许昌路1501号(近控江路)",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:8a31c201979f2a26774ff1fd",
+            "name": "虹口区第四中心小学(赤峰校区)",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.491053,
+              "lat": 31.288992,
+              "crs": "BD09LL"
+            },
+            "address": "上海市虹口区赤峰路626弄-1号",
+            "source": "baidu"
+          },
+          {
+            "poi_id": "baidu:a34484c1be1fb56879dbd22f",
+            "name": "易达中小学(杨浦校区)",
+            "facility_type": "primary_school",
+            "location": {
+              "lng": 121.525788,
+              "lat": 31.279787,
+              "crs": "BD09LL"
+            },
+            "address": "上海市杨浦区江浦路街道江浦路1500号智慧树创意产业园2号楼2层203室",
+            "source": "baidu"
+          }
+        ],
+        "counts": {
+          "market": 29,
+          "pharmacy": 37,
+          "primary_school": 16
+        }
+      },
+      "facility_routes": {
+        "origin": {
+          "lng": 121.508602,
+          "lat": 31.288268,
+          "crs": "BD09LL"
+        },
+        "travel_mode": "walking",
+        "routes": [
+          {
+            "target_id": "baidu:a9fdc86976844f1b1e1d11f3",
+            "location": {
+              "lng": 121.516002,
+              "lat": 31.285592,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1041,
+            "duration_s": 889
+          },
+          {
+            "target_id": "baidu:d19a60d0d5042c11593ac89c",
+            "location": {
+              "lng": 121.515979,
+              "lat": 31.285477,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1065,
+            "duration_s": 910
+          },
+          {
+            "target_id": "baidu:00f1c7fbb7dccd06c056ac5b",
+            "location": {
+              "lng": 121.513235,
+              "lat": 31.282601,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1158,
+            "duration_s": 987
+          },
+          {
+            "target_id": "baidu:743d271b58697db7c7f0259b",
+            "location": {
+              "lng": 121.503212,
+              "lat": 31.281395,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1418,
+            "duration_s": 1213
+          },
+          {
+            "target_id": "baidu:93df0dc3624c5f32882fb55b",
+            "location": {
+              "lng": 121.517832,
+              "lat": 31.282418,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1480,
+            "duration_s": 1265
+          },
+          {
+            "target_id": "baidu:cde9e2c7acafbcade91e97ad",
+            "location": {
+              "lng": 121.512962,
+              "lat": 31.30008,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1930,
+            "duration_s": 1649
+          },
+          {
+            "target_id": "baidu:fa9d85415271a6c5b35c6a40",
+            "location": {
+              "lng": 121.493874,
+              "lat": 31.287642,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1584,
+            "duration_s": 1356
+          },
+          {
+            "target_id": "baidu:f2327f08419004e3a80dd81e",
+            "location": {
+              "lng": 121.498753,
+              "lat": 31.298437,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2178,
+            "duration_s": 1863
+          },
+          {
+            "target_id": "baidu:d2934dba5c9fe485a2a934df",
+            "location": {
+              "lng": 121.498496,
+              "lat": 31.298265,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2188,
+            "duration_s": 1871
+          },
+          {
+            "target_id": "baidu:119afb7d29ec14a45b10937e",
+            "location": {
+              "lng": 121.503282,
+              "lat": 31.275368,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2046,
+            "duration_s": 1748
+          },
+          {
+            "target_id": "baidu:07f3c8b5638e777a6240a95b",
+            "location": {
+              "lng": 121.520172,
+              "lat": 31.299746,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2074,
+            "duration_s": 1773
+          },
+          {
+            "target_id": "baidu:75d0881a9e8639543a04b15b",
+            "location": {
+              "lng": 121.526686,
+              "lat": 31.286491,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2227,
+            "duration_s": 1904
+          },
+          {
+            "target_id": "baidu:a7381136df568344bfa8220f",
+            "location": {
+              "lng": 121.520264,
+              "lat": 31.299676,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2067,
+            "duration_s": 1767
+          },
+          {
+            "target_id": "baidu:499553518dd742006fc02cb2",
+            "location": {
+              "lng": 121.503259,
+              "lat": 31.283554,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1200,
+            "duration_s": 1026
+          },
+          {
+            "target_id": "baidu:d1846c1d07937b6ac42ba1ef",
+            "location": {
+              "lng": 121.504674,
+              "lat": 31.294045,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1061,
+            "duration_s": 907
+          },
+          {
+            "target_id": "baidu:67fe464c14e848d06b49f372",
+            "location": {
+              "lng": 121.511944,
+              "lat": 31.28027,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1385,
+            "duration_s": 1182
+          },
+          {
+            "target_id": "baidu:fa255be35208b1a5f403b8a5",
+            "location": {
+              "lng": 121.499674,
+              "lat": 31.292181,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1482,
+            "duration_s": 1267
+          },
+          {
+            "target_id": "baidu:baa14ed6b1b0e07e71455baf",
+            "location": {
+              "lng": 121.519832,
+              "lat": 31.296667,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1867,
+            "duration_s": 1597
+          },
+          {
+            "target_id": "baidu:33417cb5d7960b0ea2a93472",
+            "location": {
+              "lng": 121.514982,
+              "lat": 31.274282,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2332,
+            "duration_s": 1993
+          },
+          {
+            "target_id": "baidu:0a6c566e13950f39cc06a4a3",
+            "location": {
+              "lng": 121.528017,
+              "lat": 31.286277,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2338,
+            "duration_s": 1999
+          },
+          {
+            "target_id": "baidu:c65e92bd5a15a48d283a9fd7",
+            "location": {
+              "lng": 121.518864,
+              "lat": 31.282426,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1607,
+            "duration_s": 1374
+          },
+          {
+            "target_id": "baidu:550c54ac218b889a4e554776",
+            "location": {
+              "lng": 121.511183,
+              "lat": 31.274218,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2310,
+            "duration_s": 1974
+          },
+          {
+            "target_id": "baidu:8e62841f3a587fc94302454c",
+            "location": {
+              "lng": 121.520165,
+              "lat": 31.296586,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1891,
+            "duration_s": 1617
+          },
+          {
+            "target_id": "baidu:d5a4d7cadf048e945cd4fe3c",
+            "location": {
+              "lng": 121.504392,
+              "lat": 31.273849,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2274,
+            "duration_s": 1944
+          },
+          {
+            "target_id": "baidu:157f1106d82e605a9c09f7d6",
+            "location": {
+              "lng": 121.525788,
+              "lat": 31.288478,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2024,
+            "duration_s": 1730
+          },
+          {
+            "target_id": "baidu:1cfe045362aa97881b94c698",
+            "location": {
+              "lng": 121.496032,
+              "lat": 31.276549,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2414,
+            "duration_s": 2063
+          },
+          {
+            "target_id": "baidu:a7b36d4232a5a46997ec84da",
+            "location": {
+              "lng": 121.493175,
+              "lat": 31.278605,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2624,
+            "duration_s": 2242
+          },
+          {
+            "target_id": "baidu:575525e6ceb87c72d81318c5",
+            "location": {
+              "lng": 121.528484,
+              "lat": 31.286452,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2370,
+            "duration_s": 2027
+          },
+          {
+            "target_id": "baidu:e6e4ca782b0d4db7c6effbc0",
+            "location": {
+              "lng": 121.517626,
+              "lat": 31.282924,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1417,
+            "duration_s": 1212
+          },
+          {
+            "target_id": "baidu:378838fb4e91dfdbc1f1cfdb",
+            "location": {
+              "lng": 121.511931,
+              "lat": 31.282892,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 990,
+            "duration_s": 844
+          },
+          {
+            "target_id": "baidu:4d6e1b4c6bd89b4bdf1e5282",
+            "location": {
+              "lng": 121.504524,
+              "lat": 31.293842,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1059,
+            "duration_s": 905
+          },
+          {
+            "target_id": "baidu:eb3675036d6ed90200ec015d",
+            "location": {
+              "lng": 121.50586,
+              "lat": 31.28158,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1499,
+            "duration_s": 1280
+          },
+          {
+            "target_id": "baidu:f4460918640dd773b11e365d",
+            "location": {
+              "lng": 121.504924,
+              "lat": 31.29483,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1143,
+            "duration_s": 977
+          },
+          {
+            "target_id": "baidu:87248d96c2036faa2806ce59",
+            "location": {
+              "lng": 121.500066,
+              "lat": 31.287991,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 959,
+            "duration_s": 821
+          },
+          {
+            "target_id": "baidu:d5464cf82c16724efca778a3",
+            "location": {
+              "lng": 121.501016,
+              "lat": 31.28224,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1507,
+            "duration_s": 1288
+          },
+          {
+            "target_id": "baidu:f1f5cac50e234f8137b06ca6",
+            "location": {
+              "lng": 121.510516,
+              "lat": 31.278862,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1516,
+            "duration_s": 1294
+          },
+          {
+            "target_id": "baidu:0eb1e1ba4c1f839ed1f49e7b",
+            "location": {
+              "lng": 121.515962,
+              "lat": 31.28046,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1503,
+            "duration_s": 1282
+          },
+          {
+            "target_id": "baidu:123f7907e50000ea9ee321dd",
+            "location": {
+              "lng": 121.51801,
+              "lat": 31.282158,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1506,
+            "duration_s": 1288
+          },
+          {
+            "target_id": "baidu:f507315dfe442ca482a12eb5",
+            "location": {
+              "lng": 121.504874,
+              "lat": 31.278076,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1644,
+            "duration_s": 1405
+          },
+          {
+            "target_id": "baidu:e67cd4c8234e34ba2fb9087a",
+            "location": {
+              "lng": 121.505111,
+              "lat": 31.298532,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1559,
+            "duration_s": 1333
+          },
+          {
+            "target_id": "baidu:6a8f93ef08923bc977026911",
+            "location": {
+              "lng": 121.514925,
+              "lat": 31.297556,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1846,
+            "duration_s": 1577
+          },
+          {
+            "target_id": "baidu:2ee323bb6db6a382704b87af",
+            "location": {
+              "lng": 121.497541,
+              "lat": 31.279915,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2125,
+            "duration_s": 1817
+          },
+          {
+            "target_id": "baidu:beabdbf485b5bd817069d35d",
+            "location": {
+              "lng": 121.492588,
+              "lat": 31.281314,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2323,
+            "duration_s": 1984
+          },
+          {
+            "target_id": "baidu:78af6a8e36c1bb5031870a97",
+            "location": {
+              "lng": 121.49448,
+              "lat": 31.28998,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1752,
+            "duration_s": 1500
+          },
+          {
+            "target_id": "baidu:631c4157255d957831f71d5f",
+            "location": {
+              "lng": 121.49766,
+              "lat": 31.285081,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1555,
+            "duration_s": 1331
+          },
+          {
+            "target_id": "baidu:bc819c6b1cbe59b76fc02cd3",
+            "location": {
+              "lng": 121.524909,
+              "lat": 31.299163,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2643,
+            "duration_s": 2261
+          },
+          {
+            "target_id": "baidu:8a7b28139c878bf57c29bda8",
+            "location": {
+              "lng": 121.525471,
+              "lat": 31.289086,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2115,
+            "duration_s": 1808
+          },
+          {
+            "target_id": "baidu:10d513f4a6aa6ad701294f73",
+            "location": {
+              "lng": 121.518538,
+              "lat": 31.281641,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1582,
+            "duration_s": 1353
+          },
+          {
+            "target_id": "baidu:23b351bed331fdbd3617dc4e",
+            "location": {
+              "lng": 121.525691,
+              "lat": 31.280604,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2267,
+            "duration_s": 1938
+          },
+          {
+            "target_id": "baidu:f1cf8ba1b4c6c98e51e5c505",
+            "location": {
+              "lng": 121.492035,
+              "lat": 31.288065,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1709,
+            "duration_s": 1463
+          },
+          {
+            "target_id": "baidu:a0d83f129c01c885d7851f8a",
+            "location": {
+              "lng": 121.518483,
+              "lat": 31.272422,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2559,
+            "duration_s": 2186
+          },
+          {
+            "target_id": "baidu:6113ef771d66810d8e772753",
+            "location": {
+              "lng": 121.517716,
+              "lat": 31.29748,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1627,
+            "duration_s": 1391
+          },
+          {
+            "target_id": "baidu:a17ef7f4e711dff031f71d18",
+            "location": {
+              "lng": 121.518384,
+              "lat": 31.279412,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1819,
+            "duration_s": 1552
+          },
+          {
+            "target_id": "baidu:9ff45fb95fd970ce990050e6",
+            "location": {
+              "lng": 121.507033,
+              "lat": 31.276514,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1783,
+            "duration_s": 1523
+          },
+          {
+            "target_id": "baidu:d6df91c127f80d73f7b9164d",
+            "location": {
+              "lng": 121.529299,
+              "lat": 31.289336,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2350,
+            "duration_s": 2010
+          },
+          {
+            "target_id": "baidu:2fa8c5b261876503077ce8b7",
+            "location": {
+              "lng": 121.504575,
+              "lat": 31.275787,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2086,
+            "duration_s": 1784
+          },
+          {
+            "target_id": "baidu:572594f28841617bf8dc85c3",
+            "location": {
+              "lng": 121.496549,
+              "lat": 31.299934,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2493,
+            "duration_s": 2133
+          },
+          {
+            "target_id": "baidu:2c0bd6c545cadbb343ab9a5d",
+            "location": {
+              "lng": 121.492472,
+              "lat": 31.276822,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2781,
+            "duration_s": 2378
+          },
+          {
+            "target_id": "baidu:a7a6cbbfc50aef801b11d5e6",
+            "location": {
+              "lng": 121.494914,
+              "lat": 31.277193,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2533,
+            "duration_s": 2165
+          },
+          {
+            "target_id": "baidu:083a55fab250ec60246e985d",
+            "location": {
+              "lng": 121.496135,
+              "lat": 31.276542,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2400,
+            "duration_s": 2051
+          },
+          {
+            "target_id": "baidu:474d490b8b144f791e1d11f4",
+            "location": {
+              "lng": 121.520122,
+              "lat": 31.274979,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2481,
+            "duration_s": 2120
+          },
+          {
+            "target_id": "baidu:c09e4358528e7787213bf25a",
+            "location": {
+              "lng": 121.507275,
+              "lat": 31.272141,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2418,
+            "duration_s": 2067
+          },
+          {
+            "target_id": "baidu:0777540bee827317364aaedf",
+            "location": {
+              "lng": 121.507233,
+              "lat": 31.27216,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2418,
+            "duration_s": 2067
+          },
+          {
+            "target_id": "baidu:54202310a20a84267f29bd0b",
+            "location": {
+              "lng": 121.494211,
+              "lat": 31.276398,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2677,
+            "duration_s": 2286
+          },
+          {
+            "target_id": "baidu:e4b7469a3f2d6b98a4c75602",
+            "location": {
+              "lng": 121.521513,
+              "lat": 31.280159,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2026,
+            "duration_s": 1731
+          },
+          {
+            "target_id": "baidu:0dc3d82ddeff4f7575e5b650",
+            "location": {
+              "lng": 121.527855,
+              "lat": 31.283371,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2315,
+            "duration_s": 1978
+          },
+          {
+            "target_id": "baidu:d6c5d99135a8bfe930169b26",
+            "location": {
+              "lng": 121.502233,
+              "lat": 31.28894,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 834,
+            "duration_s": 713
+          },
+          {
+            "target_id": "baidu:49d959385f386442c61e51dd",
+            "location": {
+              "lng": 121.5061,
+              "lat": 31.282395,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1587,
+            "duration_s": 1355
+          },
+          {
+            "target_id": "baidu:719bd8ec47b3ea5ebea24027",
+            "location": {
+              "lng": 121.50181,
+              "lat": 31.28591,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1068,
+            "duration_s": 913
+          },
+          {
+            "target_id": "baidu:75d0881ac735004c3a04b1d2",
+            "location": {
+              "lng": 121.515792,
+              "lat": 31.290389,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 938,
+            "duration_s": 800
+          },
+          {
+            "target_id": "baidu:df463267f4ed4fe7f50e77e9",
+            "location": {
+              "lng": 121.506413,
+              "lat": 31.294962,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1091,
+            "duration_s": 930
+          },
+          {
+            "target_id": "baidu:b533ea4aeaa8953f4f6d4679",
+            "location": {
+              "lng": 121.51376,
+              "lat": 31.280278,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1585,
+            "duration_s": 1352
+          },
+          {
+            "target_id": "baidu:be1ea5efa2ddb7be14948ed2",
+            "location": {
+              "lng": 121.51195,
+              "lat": 31.297947,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1691,
+            "duration_s": 1443
+          },
+          {
+            "target_id": "baidu:6ed3083a8d442db62b3a9f26",
+            "location": {
+              "lng": 121.496445,
+              "lat": 31.287693,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1325,
+            "duration_s": 1134
+          },
+          {
+            "target_id": "baidu:4afde8e65a9db8971b11d5ac",
+            "location": {
+              "lng": 121.495869,
+              "lat": 31.289862,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1564,
+            "duration_s": 1339
+          },
+          {
+            "target_id": "baidu:669775d078c8285afd0eb0d2",
+            "location": {
+              "lng": 121.516943,
+              "lat": 31.298647,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1802,
+            "duration_s": 1541
+          },
+          {
+            "target_id": "baidu:d4034eb35d55f6f5c036447b",
+            "location": {
+              "lng": 121.500888,
+              "lat": 31.277138,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2369,
+            "duration_s": 2024
+          },
+          {
+            "target_id": "baidu:dbf4d6ee870301576ea3ccb5",
+            "location": {
+              "lng": 121.522499,
+              "lat": 31.282514,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1786,
+            "duration_s": 1527
+          },
+          {
+            "target_id": "baidu:4e8fd5a9f5e508bbd8eced4c",
+            "location": {
+              "lng": 121.52412,
+              "lat": 31.288995,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2008,
+            "duration_s": 1714
+          },
+          {
+            "target_id": "baidu:d799f93dd7d2053208ccdd62",
+            "location": {
+              "lng": 121.518666,
+              "lat": 31.278036,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2006,
+            "duration_s": 1712
+          },
+          {
+            "target_id": "baidu:8a31c201979f2a26774ff1fd",
+            "location": {
+              "lng": 121.491053,
+              "lat": 31.288992,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 1971,
+            "duration_s": 1686
+          },
+          {
+            "target_id": "baidu:a34484c1be1fb56879dbd22f",
+            "location": {
+              "lng": 121.525788,
+              "lat": 31.279787,
+              "crs": "BD09LL"
+            },
+            "status": "success",
+            "distance_m": 2320,
+            "duration_s": 1983
+          }
+        ],
+        "summary": {
+          "requested": 82,
+          "success": 82,
+          "no_route": 0,
+          "unavailable": 0
+        }
+      },
+      "isochrone": {
+        "center": {
+          "lng": 121.508602,
+          "lat": 31.288268,
+          "crs": "BD09LL"
+        },
+        "time_limit_s": 900,
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                121.508602,
+                31.293793631850193
+              ],
+              [
+                121.51026689181799,
+                31.293577497571263
+              ],
+              [
+                121.51160649366045,
+                31.292714857547
+              ],
+              [
+                121.51301237240898,
+                31.29203672473274
+              ],
+              [
+                121.51651361896279,
+                31.292171057765128
+              ],
+              [
+                121.5165219857812,
+                31.290081240940868
+              ],
+              [
+                121.51737002894527,
+                31.288267702250003
+              ],
+              [
+                121.5177308677238,
+                31.2861773022755
+              ],
+              [
+                121.5148969347938,
+                31.285161927609646
+              ],
+              [
+                121.51264252832163,
+                31.284814915454504
+              ],
+              [
+                121.51207016302408,
+                31.283134271265236
+              ],
+              [
+                121.51061358107563,
+                31.281852051044165
+              ],
+              [
+                121.508602,
+                31.282542675591404
+              ],
+              [
+                121.50704031369833,
+                31.28328707143554
+              ],
+              [
+                121.50561831791606,
+                31.283851460632125
+              ],
+              [
+                121.50425364996966,
+                31.284551831733438
+              ],
+              [
+                121.50232901026232,
+                31.28517275671734
+              ],
+              [
+                121.50055606458318,
+                31.28642535455206
+              ],
+              [
+                121.50034015005258,
+                31.28826773563594
+              ],
+              [
+                121.50144552704649,
+                31.28990646271668
+              ],
+              [
+                121.50338251478252,
+                31.29084303173317
+              ],
+              [
+                121.5046171543595,
+                31.291673125875896
+              ],
+              [
+                121.50473947476792,
+                31.293984713519837
+              ],
+              [
+                121.50671560991077,
+                31.29428382982369
+              ],
+              [
+                121.508602,
+                31.293793631850193
+              ]
+            ]
+          ]
+        },
+        "boundary_points": [
+          {
+            "boundary_id": "boundary:b000p00",
+            "bearing_deg": 0.0,
+            "location": {
+              "lng": 121.508602,
+              "lat": 31.293793631850193,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 614.4230769230769
+          },
+          {
+            "boundary_id": "boundary:b015p00",
+            "bearing_deg": 15.0,
+            "location": {
+              "lng": 121.51026689181799,
+              "lat": 31.293577497571263,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 611.2179487179487
+          },
+          {
+            "boundary_id": "boundary:b030p00",
+            "bearing_deg": 30.0,
+            "location": {
+              "lng": 121.51160649366045,
+              "lat": 31.292714857547,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 570.9677419354839
+          },
+          {
+            "boundary_id": "boundary:b045p00",
+            "bearing_deg": 45.0,
+            "location": {
+              "lng": 121.51301237240898,
+              "lat": 31.29203672473274,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 592.6573426573426
+          },
+          {
+            "boundary_id": "boundary:b060p00",
+            "bearing_deg": 60.0,
+            "location": {
+              "lng": 121.51651361896279,
+              "lat": 31.292171057765128,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 868.0555555555555
+          },
+          {
+            "boundary_id": "boundary:b075p00",
+            "bearing_deg": 75.0,
+            "location": {
+              "lng": 121.5165219857812,
+              "lat": 31.290081240940868,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 779.1176470588235
+          },
+          {
+            "boundary_id": "boundary:b090p00",
+            "bearing_deg": 90.0,
+            "location": {
+              "lng": 121.51737002894527,
+              "lat": 31.288267702250003,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 833.1683168316831
+          },
+          {
+            "boundary_id": "boundary:b105p00",
+            "bearing_deg": 105.0,
+            "location": {
+              "lng": 121.5177308677238,
+              "lat": 31.2861773022755,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 898.0769230769231
+          },
+          {
+            "boundary_id": "boundary:b120p00",
+            "bearing_deg": 120.0,
+            "location": {
+              "lng": 121.5148969347938,
+              "lat": 31.285161927609646,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 690.7258064516129
+          },
+          {
+            "boundary_id": "boundary:b135p00",
+            "bearing_deg": 135.0,
+            "location": {
+              "lng": 121.51264252832163,
+              "lat": 31.284814915454504,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 543.0
+          },
+          {
+            "boundary_id": "boundary:b150p00",
+            "bearing_deg": 150.0,
+            "location": {
+              "lng": 121.51207016302408,
+              "lat": 31.283134271265236,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 659.1494845360825
+          },
+          {
+            "boundary_id": "boundary:b165p00",
+            "bearing_deg": 165.0,
+            "location": {
+              "lng": 121.51061358107563,
+              "lat": 31.281852051044165,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 738.5869565217391
+          },
+          {
+            "boundary_id": "boundary:b180p00",
+            "bearing_deg": 180.0,
+            "location": {
+              "lng": 121.508602,
+              "lat": 31.282542675591404,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 636.6279069767442
+          },
+          {
+            "boundary_id": "boundary:b195p00",
+            "bearing_deg": 195.0,
+            "location": {
+              "lng": 121.50704031369833,
+              "lat": 31.28328707143554,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 573.3915441176471
+          },
+          {
+            "boundary_id": "boundary:b210p00",
+            "bearing_deg": 210.0,
+            "location": {
+              "lng": 121.50561831791606,
+              "lat": 31.283851460632125,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 567.0660621761658
+          },
+          {
+            "boundary_id": "boundary:b225p00",
+            "bearing_deg": 225.0,
+            "location": {
+              "lng": 121.50425364996966,
+              "lat": 31.284551831733438,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 584.3692870201097
+          },
+          {
+            "boundary_id": "boundary:b240p00",
+            "bearing_deg": 240.0,
+            "location": {
+              "lng": 121.50232901026232,
+              "lat": 31.28517275671734,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 688.3177570093458
+          },
+          {
+            "boundary_id": "boundary:b255p00",
+            "bearing_deg": 255.0,
+            "location": {
+              "lng": 121.50055606458318,
+              "lat": 31.28642535455206,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 791.5384615384615
+          },
+          {
+            "boundary_id": "boundary:b270p00",
+            "bearing_deg": 270.0,
+            "location": {
+              "lng": 121.50034015005258,
+              "lat": 31.28826773563594,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 785.0694444444445
+          },
+          {
+            "boundary_id": "boundary:b285p00",
+            "bearing_deg": 285.0,
+            "location": {
+              "lng": 121.50144552704649,
+              "lat": 31.28990646271668,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 704.0094339622642
+          },
+          {
+            "boundary_id": "boundary:b300p00",
+            "bearing_deg": 300.0,
+            "location": {
+              "lng": 121.50338251478252,
+              "lat": 31.29084303173317,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 572.6851851851852
+          },
+          {
+            "boundary_id": "boundary:b315p00",
+            "bearing_deg": 315.0,
+            "location": {
+              "lng": 121.5046171543595,
+              "lat": 31.291673125875896,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 535.4779411764706
+          },
+          {
+            "boundary_id": "boundary:b330p00",
+            "bearing_deg": 330.0,
+            "location": {
+              "lng": 121.50473947476792,
+              "lat": 31.293984713519837,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 734.016393442623
+          },
+          {
+            "boundary_id": "boundary:b345p00",
+            "bearing_deg": 345.0,
+            "location": {
+              "lng": 121.50671560991077,
+              "lat": 31.29428382982369,
+              "crs": "BD09LL"
+            },
+            "radial_distance_m": 692.5295857988166
+          }
+        ],
+        "quality": {
+          "requested_directions": 24,
+          "valid_boundary_directions": 24,
+          "routing_sample_count": 192,
+          "routing_success_count": 192,
+          "sample_success_rate": 1.0,
+          "confidence": "high"
+        }
+      },
+      "blindspot": {
+        "center": {
+          "lng": 121.508602,
+          "lat": 31.288268,
+          "crs": "BD09LL"
+        },
+        "analysis_geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                121.508602,
+                31.293793631850193
+              ],
+              [
+                121.51026689181799,
+                31.293577497571263
+              ],
+              [
+                121.51160649366045,
+                31.292714857547
+              ],
+              [
+                121.51301237240898,
+                31.29203672473274
+              ],
+              [
+                121.51651361896279,
+                31.292171057765128
+              ],
+              [
+                121.5165219857812,
+                31.290081240940868
+              ],
+              [
+                121.51737002894527,
+                31.288267702250003
+              ],
+              [
+                121.5177308677238,
+                31.2861773022755
+              ],
+              [
+                121.5148969347938,
+                31.285161927609646
+              ],
+              [
+                121.51264252832163,
+                31.284814915454504
+              ],
+              [
+                121.51207016302408,
+                31.283134271265236
+              ],
+              [
+                121.51061358107563,
+                31.281852051044165
+              ],
+              [
+                121.508602,
+                31.282542675591404
+              ],
+              [
+                121.50704031369833,
+                31.28328707143554
+              ],
+              [
+                121.50561831791606,
+                31.283851460632125
+              ],
+              [
+                121.50425364996966,
+                31.284551831733438
+              ],
+              [
+                121.50232901026232,
+                31.28517275671734
+              ],
+              [
+                121.50055606458318,
+                31.28642535455206
+              ],
+              [
+                121.50034015005258,
+                31.28826773563594
+              ],
+              [
+                121.50144552704649,
+                31.28990646271668
+              ],
+              [
+                121.50338251478252,
+                31.29084303173317
+              ],
+              [
+                121.5046171543595,
+                31.291673125875896
+              ],
+              [
+                121.50473947476792,
+                31.293984713519837
+              ],
+              [
+                121.50671560991077,
+                31.29428382982369
+              ],
+              [
+                121.508602,
+                31.293793631850193
+              ]
+            ]
+          ]
+        },
+        "service_distance_m": 1000,
+        "grid_size_m": 200,
+        "blind_spots": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50561831791606,
+                      31.283851460632125
+                    ],
+                    [
+                      121.50544488440165,
+                      31.283940469699726
+                    ],
+                    [
+                      121.50544488440165,
+                      31.285570038908826
+                    ],
+                    [
+                      121.50754962813389,
+                      31.285570038908826
+                    ],
+                    [
+                      121.50754962813389,
+                      31.283771398181376
+                    ],
+                    [
+                      121.50582003770087,
+                      31.283771398181376
+                    ],
+                    [
+                      121.50561831791606,
+                      31.283851460632125
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r-002:c-001",
+                "facility_type": "market",
+                "classification": "blind"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50754962813389,
+                      31.287368679636273
+                    ],
+                    [
+                      121.50754962813389,
+                      31.289167320363724
+                    ],
+                    [
+                      121.5096543718661,
+                      31.289167320363724
+                    ],
+                    [
+                      121.5096543718661,
+                      31.287368679636273
+                    ],
+                    [
+                      121.50754962813389,
+                      31.287368679636273
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0000:c0000",
+                "facility_type": "market",
+                "classification": "blind"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5165219857812,
+                      31.290081240940868
+                    ],
+                    [
+                      121.51694935140722,
+                      31.289167320363724
+                    ],
+                    [
+                      121.5159686030628,
+                      31.289167320363724
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51651844370384,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5165219857812,
+                      31.290081240940868
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0001:c0004",
+                "facility_type": "pharmacy",
+                "classification": "blind"
+              }
+            }
+          ]
+        },
+        "unknown_areas": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51301237240898,
+                      31.29203672473274
+                    ],
+                    [
+                      121.51386385933057,
+                      31.292069393903123
+                    ],
+                    [
+                      121.51386385933057,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51175911559834,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51175911559834,
+                      31.292641239573637
+                    ],
+                    [
+                      121.51301237240898,
+                      31.29203672473274
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0002",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51386385933057,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51386385933057,
+                      31.292069393903123
+                    ],
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0003",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51386385933057,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51386385933057,
+                      31.292069393903123
+                    ],
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0003",
+                "facility_type": "pharmacy",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51386385933057,
+                      31.29096596109117
+                    ],
+                    [
+                      121.51386385933057,
+                      31.292069393903123
+                    ],
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0003",
+                "facility_type": "primary_school",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51651361896279,
+                      31.292171057765128
+                    ],
+                    [
+                      121.51651844370384,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ],
+                    [
+                      121.51651361896279,
+                      31.292171057765128
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0004",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51651361896279,
+                      31.292171057765128
+                    ],
+                    [
+                      121.51651844370384,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ],
+                    [
+                      121.51651361896279,
+                      31.292171057765128
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0004",
+                "facility_type": "pharmacy",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51651361896279,
+                      31.292171057765128
+                    ],
+                    [
+                      121.51651844370384,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5159686030628,
+                      31.29096596109117
+                    ],
+                    [
+                      121.5159686030628,
+                      31.292150147030217
+                    ],
+                    [
+                      121.51651361896279,
+                      31.292171057765128
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0002:c0004",
+                "facility_type": "primary_school",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50473947476792,
+                      31.293984713519837
+                    ],
+                    [
+                      121.50544488440165,
+                      31.294091487352137
+                    ],
+                    [
+                      121.50544488440165,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50467491110666,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50473947476792,
+                      31.293984713519837
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c-002",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50473947476792,
+                      31.293984713519837
+                    ],
+                    [
+                      121.50544488440165,
+                      31.294091487352137
+                    ],
+                    [
+                      121.50544488440165,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50467491110666,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50473947476792,
+                      31.293984713519837
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c-002",
+                "facility_type": "pharmacy",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50473947476792,
+                      31.293984713519837
+                    ],
+                    [
+                      121.50544488440165,
+                      31.294091487352137
+                    ],
+                    [
+                      121.50544488440165,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50467491110666,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50473947476792,
+                      31.293984713519837
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c-002",
+                "facility_type": "primary_school",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50671560991077,
+                      31.29428382982369
+                    ],
+                    [
+                      121.50754962813389,
+                      31.2940671015631
+                    ],
+                    [
+                      121.50754962813389,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50544488440165,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50544488440165,
+                      31.294091487352137
+                    ],
+                    [
+                      121.50671560991077,
+                      31.29428382982369
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c-001",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50671560991077,
+                      31.29428382982369
+                    ],
+                    [
+                      121.50754962813389,
+                      31.2940671015631
+                    ],
+                    [
+                      121.50754962813389,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50544488440165,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50544488440165,
+                      31.294091487352137
+                    ],
+                    [
+                      121.50671560991077,
+                      31.29428382982369
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c-001",
+                "facility_type": "pharmacy",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.50671560991077,
+                      31.29428382982369
+                    ],
+                    [
+                      121.50754962813389,
+                      31.2940671015631
+                    ],
+                    [
+                      121.50754962813389,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50544488440165,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50544488440165,
+                      31.294091487352137
+                    ],
+                    [
+                      121.50671560991077,
+                      31.29428382982369
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c-001",
+                "facility_type": "primary_school",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ],
+                    [
+                      121.5096543718661,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50754962813389,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50754962813389,
+                      31.2940671015631
+                    ],
+                    [
+                      121.508602,
+                      31.293793631850193
+                    ],
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c0000",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ],
+                    [
+                      121.5096543718661,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50754962813389,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50754962813389,
+                      31.2940671015631
+                    ],
+                    [
+                      121.508602,
+                      31.293793631850193
+                    ],
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c0000",
+                "facility_type": "pharmacy",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ],
+                    [
+                      121.5096543718661,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50754962813389,
+                      31.29276460181862
+                    ],
+                    [
+                      121.50754962813389,
+                      31.2940671015631
+                    ],
+                    [
+                      121.508602,
+                      31.293793631850193
+                    ],
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c0000",
+                "facility_type": "primary_school",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51026689181799,
+                      31.293577497571263
+                    ],
+                    [
+                      121.51152924531115,
+                      31.29276460181862
+                    ],
+                    [
+                      121.5096543718661,
+                      31.29276460181862
+                    ],
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ],
+                    [
+                      121.51026689181799,
+                      31.293577497571263
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c0001",
+                "facility_type": "market",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51026689181799,
+                      31.293577497571263
+                    ],
+                    [
+                      121.51152924531115,
+                      31.29276460181862
+                    ],
+                    [
+                      121.5096543718661,
+                      31.29276460181862
+                    ],
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ],
+                    [
+                      121.51026689181799,
+                      31.293577497571263
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c0001",
+                "facility_type": "pharmacy",
+                "classification": "unknown"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      121.51026689181799,
+                      31.293577497571263
+                    ],
+                    [
+                      121.51152924531115,
+                      31.29276460181862
+                    ],
+                    [
+                      121.5096543718661,
+                      31.29276460181862
+                    ],
+                    [
+                      121.5096543718661,
+                      31.293657014184113
+                    ],
+                    [
+                      121.51026689181799,
+                      31.293577497571263
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "cell_id": "grid:r0003:c0001",
+                "facility_type": "primary_school",
+                "classification": "unknown"
+              }
+            }
+          ]
+        },
+        "coverage": [
+          {
+            "facility_type": "market",
+            "total_area_m2": 1441737.1478848686,
+            "covered_area_m2": 1225707.8322249663,
+            "blind_area_m2": 79686.40564079129,
+            "unknown_area_m2": 136342.910019111,
+            "covered_ratio": 0.85016040130697,
+            "blind_ratio": 0.05527110524806615,
+            "unknown_ratio": 0.0945684934449638,
+            "covered_cells": 42,
+            "blind_cells": 2,
+            "unknown_cells": 7,
+            "confidence": "medium"
+          },
+          {
+            "facility_type": "pharmacy",
+            "total_area_m2": 1441737.1478848686,
+            "covered_area_m2": 1320792.6849205848,
+            "blind_area_m2": 12563.762738577947,
+            "unknown_area_m2": 108380.70022570576,
+            "covered_ratio": 0.9161119881375618,
+            "blind_ratio": 0.008714322688438655,
+            "unknown_ratio": 0.07517368917399957,
+            "covered_cells": 44,
+            "blind_cells": 1,
+            "unknown_cells": 6,
+            "confidence": "medium"
+          },
+          {
+            "facility_type": "primary_school",
+            "total_area_m2": 1441737.1478848686,
+            "covered_area_m2": 1333356.4476591628,
+            "blind_area_m2": 0.0,
+            "unknown_area_m2": 108380.70022570576,
+            "covered_ratio": 0.9248263108260004,
+            "blind_ratio": 0.0,
+            "unknown_ratio": 0.07517368917399957,
+            "covered_cells": 45,
+            "blind_cells": 0,
+            "unknown_cells": 6,
+            "confidence": "medium"
+          }
+        ],
+        "quality": {
+          "grid_cell_count": 51,
+          "route_pairs_requested": 176,
+          "route_pairs_succeeded": 175,
+          "route_pairs_unavailable": 1,
+          "route_budget_exhausted": true,
+          "method": "grid_representative_walking_distance",
+          "confidence": "medium"
+        }
+      },
+      "metrics": [
+        {
+          "facility_type": "market",
+          "poi_count": 29,
+          "confirmed_reachable_15m_count": 1,
+          "unresolved_route_count": 0,
+          "nearest_walk_distance_m": 1041,
+          "nearest_walk_duration_s": 889,
+          "covered_ratio": 0.85016040130697,
+          "blind_ratio": 0.05527110524806615,
+          "unknown_ratio": 0.0945684934449638
+        },
+        {
+          "facility_type": "pharmacy",
+          "poi_count": 37,
+          "confirmed_reachable_15m_count": 2,
+          "unresolved_route_count": 0,
+          "nearest_walk_distance_m": 959,
+          "nearest_walk_duration_s": 821,
+          "covered_ratio": 0.9161119881375618,
+          "blind_ratio": 0.008714322688438655,
+          "unknown_ratio": 0.07517368917399957
+        },
+        {
+          "facility_type": "primary_school",
+          "poi_count": 16,
+          "confirmed_reachable_15m_count": 2,
+          "unresolved_route_count": 0,
+          "nearest_walk_distance_m": 834,
+          "nearest_walk_duration_s": 713,
+          "covered_ratio": 0.9248263108260004,
+          "blind_ratio": 0.0,
+          "unknown_ratio": 0.07517368917399957
+        }
+      ],
+      "stages": {
+        "location": "complete",
+        "poi": "complete",
+        "routing": "complete",
+        "isochrone": "complete",
+        "blindspot": "partial"
+      },
+      "quality": {
+        "confidence": "low",
+        "method": "sampled_isochrone_and_grid_walking_distance"
+      }
+    },
+    "warnings": [
+      {
+        "code": "PARTIAL_ROUTING_RESULTS",
+        "message": "部分目标点的步行数据暂时不可用。"
+      },
+      {
+        "code": "ROUTING_BUDGET_EXCEEDED",
+        "message": "部分候选设施未测时，相关网格标为未知。"
+      },
+      {
+        "code": "PARTIAL_ROUTING_RESULTS",
+        "message": "部分网格到设施的步行路线不可用。"
+      },
+      {
+        "code": "UNKNOWN_BLINDSPOT_AREA",
+        "message": "存在证据不足、不能判为盲区的网格。"
+      },
+      {
+        "code": "PARTIAL_DIAGNOSIS",
+        "message": "本次体检有部分阶段未完成或结果不完整。"
+      }
+    ],
+    "meta": {
+      "schema_version": "1.0",
+      "provider": "baidu"
+    }
+  }
+}

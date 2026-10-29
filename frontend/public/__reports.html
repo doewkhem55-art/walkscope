@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>报告索引 · 15分钟生活圈体检</title>
+<style>
+  :root{--ink:#1a1a1a;--muted:#6b7280;--line:#e5e7eb;--accent:#c8d400;--bg:#f7f7f2}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);padding:28px 20px 60px}
+  header{max-width:1180px;margin:0 auto 18px;border:2px solid var(--ink);background:#fff;padding:16px 20px}
+  h1{font-size:20px;margin:0 0 6px}
+  p.desc{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+  main{max-width:1180px;margin:0 auto}
+  table{width:100%;border-collapse:collapse;background:#fff;border:2px solid var(--ink);font-size:13px}
+  th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+  th{background:#f0f0e8;font-weight:600;white-space:nowrap}
+  tr:hover td{background:#fcfdf0}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .small{font-size:11px;color:var(--muted)}
+  .status{font-size:12px;padding:1px 6px;border:1px solid var(--line);border-radius:3px;color:var(--muted);white-space:nowrap}
+  .status.ok{color:#166534;border-color:#86efac;background:#f0fdf4}
+  .status.miss{color:#9a3412;border-color:#fdba74;background:#fff7ed}
+  button{font:inherit;font-size:12px;padding:5px 12px;border:1px solid var(--ink);background:var(--accent);cursor:pointer;border-radius:2px}
+  button.secondary{background:#fff}
+  .panel{max-width:1180px;margin:18px auto 0;border:2px solid var(--ink);background:#fff;padding:16px 20px}
+  .panel h2{font-size:15px;margin:0 0 10px}
+  input{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--ink);width:380px;max-width:100%;font-family:ui-monospace,Menlo,monospace}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .hint{font-size:12px;color:var(--muted);line-height:1.8;margin-top:10px}
+  .warn{background:#fff7ed;border:1px solid #fdba74;padding:10px 12px;font-size:12px;line-height:1.8;margin-top:12px}
+  a{color:#0b5cad}
+</style>
+</head>
+<body>
+<header>
+  <h1>15分钟生活圈 · 报告索引</h1>
+  <p class="desc">点"打开"= 让应用加载**已完成**的报告（不发起新体检、不消耗百度额度）。"状态"列是向后端实时探测的结果：可读 = 该报告在<b>当前后端进程内存</b>中。</p>
+</header>
+<main>
+<table>
+  <thead><tr><th>地点</th><th>生成时间(+08)</th><th>口径</th><th>综合分</th><th>覆盖对</th><th>置信</th><th>report_id</th><th>状态</th><th></th></tr></thead>
+  <tbody>
+      <tr data-id="81662887e4b0465fb328baf96847906c">
+        <td>同济大学(四平路校区)</td>
+        <td class="mono">2026-10-16 08:00:34</td>
+        <td>v1</td>
+        <td class="num">—（v1 不出分）</td>
+        <td class="num">2243</td>
+        <td>low</td>
+        <td class="mono small">81662887e4b0465fb328baf96847906c</td>
+        <td><span class="status">检测中…</span></td>
+        <td><button type="button" onclick="openReport('81662887e4b0465fb328baf96847906c')">打开</button></td>
+      </tr>
+      <tr data-id="83a462a094e84c83950b0bf7a47c3f7d">
+        <td>同济大学(四平路校区)</td>
+        <td class="mono">2026-10-16 08:34:42</td>
+        <td>v2</td>
+        <td class="num">62.5</td>
+        <td class="num">216</td>
+        <td>low</td>
+        <td class="mono small">83a462a094e84c83950b0bf7a47c3f7d</td>
+        <td><span class="status">检测中…</span></td>
+        <td><button type="button" onclick="openReport('83a462a094e84c83950b0bf7a47c3f7d')">打开</button></td>
+      </tr>
+      <tr data-id="9746062d8f364a17bc89847743b5b284">
+        <td>同济大学(四平路校区)</td>
+        <td class="mono">2026-10-17 01:51:20</td>
+        <td>v2</td>
+        <td class="num">62.5</td>
+        <td class="num">2389</td>
+        <td>medium</td>
+        <td class="mono small">9746062d8f364a17bc89847743b5b284</td>
+        <td><span class="status">检测中…</span></td>
+        <td><button type="button" onclick="openReport('9746062d8f364a17bc89847743b5b284')">打开</button></td>
+      </tr>
+      <tr data-id="e3625bf6c8d147b3938d4e527f82eb7b">
+        <td>同济大学(四平路校区)</td>
+        <td class="mono">2026-10-16 07:49:23</td>
+        <td>v1</td>
+        <td class="num">—（v1 不出分）</td>
+        <td class="num">2119</td>
+        <td>low</td>
+        <td class="mono small">e3625bf6c8d147b3938d4e527f82eb7b</td>
+        <td><span class="status">检测中…</span></td>
+        <td><button type="button" onclick="openReport('e3625bf6c8d147b3938d4e527f82eb7b')">打开</button></td>
+      </tr>
+  </tbody>
+</table>
+
+<section class="panel">
+  <h2>手动打开（粘 report_id）</h2>
+  <div class="row">
+    <input id="manual" placeholder="例如 9746062d8f364a17bc89847743b5b284">
+    <button type="button" onclick="openReport(document.getElementById('manual').value.trim())">打开</button>
+    <button type="button" class="secondary" onclick="probe()">重新检测状态</button>
+  </div>
+  <div class="hint">
+    后端地址：<code id="baseLabel"></code>（来自 <code>?base=</code>，默认 http://127.0.0.1:8765）<br>
+    想发起一次<b>新的</b>体检：回到应用首页 <a href="/">/</a>（注意：会真实消耗百度额度）。
+  </div>
+  <div class="warn">
+    <b>为什么有的报告状态是"不在内存"？</b>
+    后端只把"当前进程里跑过/载入过的报告"放在内存中；早先运行产生的报告只保存在磁盘
+    （<code>执行资料/Gate3_真实报告_*.json</code>）。若要复核旧报告，用"复核模式"启动后端载入该文件即可
+    （<code>python 执行资料/tools/gate5_model_harness.py 执行资料/Gate3_真实报告_&lt;id&gt;.json 8765</code>）。
+  </div>
+</section>
+</main>
+<script>
+const params = new URLSearchParams(location.search)
+const base = params.get('base') || 'http://127.0.0.1:8765'
+document.getElementById('baseLabel').textContent = base
+
+function openReport(id) {
+  if (!id) { alert('请填写 report_id'); return }
+  if (!/^[0-9a-f]{32}$/.test(id)) { alert('report_id 应为 32 位十六进制'); return }
+  // 备份当前句柄，便于切回正在跑的任务
+  const current = localStorage.getItem('15min-life.checkup.pending')
+  if (current) localStorage.setItem('15min-life.checkup.pending.prev', current)
+  localStorage.setItem('15min-life.checkup.pending', JSON.stringify({
+    id, base, status: 'running', stage: 'coverage', progress: 65,
+  }))
+  location.replace('/')
+}
+
+async function probe() {
+  for (const tr of document.querySelectorAll('tr[data-id]')) {
+    const id = tr.dataset.id
+    const span = tr.querySelector('.status')
+    span.textContent = '检测中…'; span.className = 'status'
+    try {
+      const res = await fetch(`${base}/api/v1/checkups/${id}`)
+      if (res.ok) { span.textContent = '可打开'; span.className = 'status ok' }
+      else if (res.status === 404) { span.textContent = '不在内存'; span.className = 'status miss' }
+      else { span.textContent = `HTTP ${res.status}`; span.className = 'status miss' }
+    } catch (e) { span.textContent = '后端不可达'; span.className = 'status miss' }
+  }
+}
+probe()
+</script>
+</body>
+</html>

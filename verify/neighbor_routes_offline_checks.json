@@ -1,0 +1,74 @@
+{
+  "offline_only": true,
+  "provider_requests": 0,
+  "synthetic_control_tests": "4 passed",
+  "saved_center_to_target_paths_parsed": [
+    {
+      "sample": "direction_01_校园内部院落.json",
+      "step_count": 4,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 20,
+      "duration_s": 205
+    },
+    {
+      "sample": "direction_02_普通街道短途.json",
+      "step_count": 8,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 72,
+      "duration_s": 1421
+    },
+    {
+      "sample": "direction_03_普通街道中途.json",
+      "step_count": 15,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 129,
+      "duration_s": 2561
+    },
+    {
+      "sample": "direction_04_接近15分钟.json",
+      "step_count": 17,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 80,
+      "duration_s": 1706
+    },
+    {
+      "sample": "direction_05_明显超时.json",
+      "step_count": 23,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 314,
+      "duration_s": 6652
+    },
+    {
+      "sample": "direction_06_跨苏州河.json",
+      "step_count": 9,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 221,
+      "duration_s": 3519
+    },
+    {
+      "sample": "direction_07_跨苏州河二.json",
+      "step_count": 5,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 113,
+      "duration_s": 1748
+    },
+    {
+      "sample": "direction_08_铁路车站周边.json",
+      "step_count": 6,
+      "continuous_within_1m": true,
+      "max_step_junction_gap_m": 0.0,
+      "polyline_vertices": 60,
+      "duration_s": 836
+    }
+  ],
+  "note": "These eight historical paths only test parsing. They are not neighboring A-to-B experiment evidence.",
+  "historical_rendering_sample_rejected_before_planning": true,
+  "automatic_http_redirects_disabled": true
+}

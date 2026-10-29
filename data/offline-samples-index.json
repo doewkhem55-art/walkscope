@@ -1,0 +1,266 @@
+{
+  "archive": "data/offline-samples.zip",
+  "sha256": "801f25bf749dea07aedadce0af4bf6131f27e5159e55a83da5fbe317df868496",
+  "files": [
+    {
+      "path": "data/report_drafts/baselines/tongji-all7-repaired-20261026.json",
+      "bytes": 741897,
+      "sha256": "829ee2a27a0108d12b028a6ee63146562392c1a3893d8903ec658ead9f51d4f7"
+    },
+    {
+      "path": "data/report_drafts/baselines/tongji-all7-small-updated-20261027.json",
+      "bytes": 1714899,
+      "sha256": "65861f5b8badd0a0a0141cfaf7f8dbb6bc54ac328e4b6305d4b1d5e683580615"
+    },
+    {
+      "path": "data/report_drafts/baselines/versions/tongji-all7-repaired-20261026/v1.json",
+      "bytes": 741897,
+      "sha256": "829ee2a27a0108d12b028a6ee63146562392c1a3893d8903ec658ead9f51d4f7"
+    },
+    {
+      "path": "data/report_drafts/baselines/versions/tongji-all7-small-updated-20261027/v1.json",
+      "bytes": 1714899,
+      "sha256": "65861f5b8badd0a0a0141cfaf7f8dbb6bc54ac328e4b6305d4b1d5e683580615"
+    },
+    {
+      "path": "data/reports/06bc784efca6462e9b4f38fc59b2c955_report.json",
+      "bytes": 575232,
+      "sha256": "5bc22e43137d45ab25ab6ad7a4d4c82997fdd458a44b06224bb3aaf69c75aff4"
+    },
+    {
+      "path": "data/reports/10f3613414114609b3ca86de2e378217_report.json",
+      "bytes": 805968,
+      "sha256": "a7db719550a332abca09adc342d71e8f2ff3b98e2da4a1aec5ef7787ec402126"
+    },
+    {
+      "path": "data/reports/12de2c15ac4a44798a2bdbeff6ff2a8f_report.json",
+      "bytes": 315860,
+      "sha256": "53a1ae0b6ea476a557bf3d185013dffe63c3757e490e135d2223dbb5377ce450"
+    },
+    {
+      "path": "data/reports/3de7777d550f4562afc38d96140f0118_report.json",
+      "bytes": 1267448,
+      "sha256": "5b077be7a0038835a14a2dabeafad6ce45c2bade4b21e3766851807226d98016"
+    },
+    {
+      "path": "data/reports/44dada12d1e14e9c8a52cf0e41a30d10_report.json",
+      "bytes": 194332,
+      "sha256": "6150e231b7ef830f234907068900599a54d16d8a0a1c4b1b3bcab614ce4a5d26"
+    },
+    {
+      "path": "data/reports/6374446c22fc4bb0bfbeb3306dd4a911_report.json",
+      "bytes": 122096,
+      "sha256": "feb34cbc185756d43bd88c38864b17035268570a526101488a3a9a30662e5b84"
+    },
+    {
+      "path": "data/reports/6f52bff69cd849e8a9eb68ecc0fd8fcd_report.json",
+      "bytes": 711567,
+      "sha256": "27ff32838ff3818aeaea0095e4634f543eddddc5ee4d88df4a9c0aefe29f6adf"
+    },
+    {
+      "path": "data/reports/9f4df3be7e3c4828a95b75f8c7b8a47e_report.json",
+      "bytes": 491133,
+      "sha256": "1977e26d2924a6df886170f594f51ffecc508011ebf31cd35270ad0417797d63"
+    },
+    {
+      "path": "data/reports/a296e99d41794fc29606b262f7764979_report.json",
+      "bytes": 619073,
+      "sha256": "9c99d90beb20fb52b97db9b239fa21d02cc4ca268119f12fd348fed9ee7614c6"
+    },
+    {
+      "path": "data/reports/e5231b852ae643f180cb4143ec8da97f_report.json",
+      "bytes": 1284057,
+      "sha256": "0b54e849c0714316bf4bf010bc9db60d2ececea19749f79dd131acf80490a6a9"
+    },
+    {
+      "path": "data/reports/ef5f4c75a0f6449786241fd099e743af_report.json",
+      "bytes": 1082485,
+      "sha256": "c58e7b70707e0847698ea47379cbd189e9f5c36d472b87de0a129b55b2afb2d3"
+    },
+    {
+      "path": "data/reports/replay-primary-school-20261018_report.json",
+      "bytes": 15503,
+      "sha256": "11c3ab56ace8093f15b03c2355e830c7ac981f407cc056ccdfca325882f61d16"
+    },
+    {
+      "path": "data/reports/tongji-20m-20261024_report.json",
+      "bytes": 4270300,
+      "sha256": "c397658391a646663d0ce89bd46732c4a646ac98848d9faff8647252e5cec0c1"
+    },
+    {
+      "path": "data/reports/tongji-all7-repaired-20261026_report.json",
+      "bytes": 28154155,
+      "sha256": "45dc33149d8fdb61284ae978ddd921ec12cb29cedcabf1c1c1d16db12cc784df"
+    },
+    {
+      "path": "data/reports/tongji-all7-small-updated-20261027_report.json",
+      "bytes": 39343638,
+      "sha256": "9d944fb334035df407c1a4fb741a4e4a2859ba983e14cf20391ce2aa821c17cf"
+    },
+    {
+      "path": "data/reports/tongji-all7-walk-contour-20261025_report.json",
+      "bytes": 20236454,
+      "sha256": "ed4cb1459ddf5805b739aa981ea27e5fb81dc73c85504f58956b0bb6151e1854"
+    },
+    {
+      "path": "data/reports/tongji-culture-walk-contour-20261025_report.json",
+      "bytes": 1081340,
+      "sha256": "8d60f20b6d3f34b7d7157bf363630ab87e565536e5c29afe44df05751fa432cc"
+    },
+    {
+      "path": "data/reports/tongji-education-health-actual-poi-20261025_report.json",
+      "bytes": 5938732,
+      "sha256": "b5d6a0581e5e0a3ba2a81cda463bce992ab9570f0ee4200e7cc4437af0d3d198"
+    },
+    {
+      "path": "data/reports/tongji-education-health-actual-poi-v2-20261025_report.json",
+      "bytes": 5896156,
+      "sha256": "d6caf1e880397111c66dba11753af1c3ce024a1bf53099333bf0482d731b04ff"
+    },
+    {
+      "path": "data/reports/tongji-education-health-shared500-20261024_report.json",
+      "bytes": 2731503,
+      "sha256": "fcb0ac9439004531c38e37d073309e973dde2a542cb1ba1dfcfe0e3d8c06f092"
+    },
+    {
+      "path": "data/reports/tongji-education-health-walk-contour-20261025_report.json",
+      "bytes": 6766741,
+      "sha256": "9071b195952cab7ed4aab5e5212c8e847827bb0471fd8f6654835a0592a51c8c"
+    },
+    {
+      "path": "data/reports/tongji-education-shared500-20261024_report.json",
+      "bytes": 1523595,
+      "sha256": "c909f371147a03aa167c59e88779f3eca5fa8d6b4f19f2bc118841c7428504af"
+    },
+    {
+      "path": "data/reports/tongji-health-shared500-20261024_report.json",
+      "bytes": 1833354,
+      "sha256": "6210a6642c0a9145082873ecdd2834db0f52f1dddbdcf24df4b11a431ab267a7"
+    },
+    {
+      "path": "data/reports/tongji-poi-service-20261024_report.json",
+      "bytes": 3614896,
+      "sha256": "b0e789f534b85e405835aac3d86e9bd63e54a52ce17fd4051b190e8a66cd82bc"
+    },
+    {
+      "path": "data/reports/wuhan-zhongnan-education-complete-20261026-groups-34_report.json",
+      "bytes": 2166116,
+      "sha256": "7d11cb942966db6136f34d9b9ba2bbb21da8ccdee7be94d46372af247109a54e"
+    },
+    {
+      "path": "data/reports/wuhan-zhongnan-education-restored-20261026_report.json",
+      "bytes": 912031,
+      "sha256": "2feeb614ae119bf8cf17f707d0e11448ab26f18a76e5c462f7fd7de2875566d4"
+    },
+    {
+      "path": "data/samples/isochrone-live.json",
+      "bytes": 9176,
+      "sha256": "60e94489a2727ea5cbb987f3095dff0d9e7fbae764fe82541494fbe3b927b7f1"
+    },
+    {
+      "path": "frontend/public/cases/tongji-before-poi-repair-20261025.json",
+      "bytes": 20236454,
+      "sha256": "ed4cb1459ddf5805b739aa981ea27e5fb81dc73c85504f58956b0bb6151e1854"
+    },
+    {
+      "path": "frontend/public/cases/tongji-historical-20261024.json",
+      "bytes": 4270300,
+      "sha256": "c397658391a646663d0ce89bd46732c4a646ac98848d9faff8647252e5cec0c1"
+    },
+    {
+      "path": "frontend/public/cases/tongji.json",
+      "bytes": 39343638,
+      "sha256": "9d944fb334035df407c1a4fb741a4e4a2859ba983e14cf20391ce2aa821c17cf"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_01_校园内部院落.json",
+      "bytes": 3209,
+      "sha256": "faa95475f1a1210badc881d9f29608c41bf31479859f2cac5e0a2654b31a9f1b"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_02_普通街道短途.json",
+      "bytes": 7286,
+      "sha256": "66b76008c16042a667707dc122a223cfbb3c506c7b725f09bece48200924a459"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_03_普通街道中途.json",
+      "bytes": 13015,
+      "sha256": "75c60c0b995310a014c460776d437419024703633da730322ddfc17cd49ac0fd"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_04_接近15分钟.json",
+      "bytes": 12603,
+      "sha256": "b0f8e80e068ea33a76a1b6345d3e64191787c7182a3ead20aea5ed454e454deb"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_05_明显超时.json",
+      "bytes": 23657,
+      "sha256": "4f03de0c5a9bb80be9306c114d227244a9d09e65854d6142beb3a493decfbcd3"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_06_跨苏州河.json",
+      "bytes": 12534,
+      "sha256": "cb2dac000fd8f11cf3fd85c72589de54b0600572d2777ce0854b16acab83df20"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_07_跨苏州河二.json",
+      "bytes": 6765,
+      "sha256": "277d08d00daf17f4cbfe4daa04c89290d4416d266b73dfd8faaed6dc6419086c"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/direction_08_铁路车站周边.json",
+      "bytes": 5643,
+      "sha256": "f8e21a10859414ba5221e02d266b9d78992645ab37168f9ab05d3436949b4e3d"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/matrix_batch50.json",
+      "bytes": 11598,
+      "sha256": "b112963858a6f3486f9f6a91d2d2a60a31929c57ba1e0bfb07178cc8581cb4fe"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段0_路径探测/summary.json",
+      "bytes": 8489,
+      "sha256": "1283a5f78bd35e3c39aa7bfd1cd3fa69890cb22cfd4ddba3fa66b34f9e246ccf"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/compare.png",
+      "bytes": 21324,
+      "sha256": "bcf018b57e3ab38e4b402c6259c60bd2190ac94b8824b24d2b4a27815261dd40"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/compare_band.png",
+      "bytes": 28651,
+      "sha256": "961a2a3d3dc2b3a0329beaa58816567ca1c443c5123a101ea53f381e5582a048"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/grid_times.json",
+      "bytes": 15982,
+      "sha256": "0ef1992a61af7937df0c15a8eb9a3313c901cd34016fbf4189ca4cfb1447760d"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/metrics.json",
+      "bytes": 21285,
+      "sha256": "9d1c17ed00dbc7e8b4d082b0932f498484ec3b10b0870a2490c29d3a2ce55b7e"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/new_geometry.json",
+      "bytes": 6877,
+      "sha256": "d649edd7c3296168dddd1d6c4df78b06746c0cbdf85a27dac343b5e9f4e2585e"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/old_geometry.json",
+      "bytes": 2703,
+      "sha256": "3b8098ac15bc2ad22733df90182d062bb0c7e889c33fbd22ff8d6e1cae07f9dd"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/old_geometry_72.json",
+      "bytes": 5279,
+      "sha256": "0a49ec33c58aaa9b6853830a71a9e5d2484ab34f1adc4e3ad7bea56a111bec9b"
+    },
+    {
+      "path": "执行资料/改进执行_2026-10-18/阶段2_对照/新等时圈结果.png",
+      "bytes": 27733,
+      "sha256": "e6f9b60820cb6581312507a911b64d369dc899b0724a2cf92965ac6d75196c78"
+    }
+  ]
+}
